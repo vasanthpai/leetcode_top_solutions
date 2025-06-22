@@ -14,23 +14,31 @@ Welcome to my LeetCode Top 150 journey! I'm solving the most frequently asked co
 
 ## 🧩 Problem Type Breakdown
 
-| Type               | Count |
-|--------------------|-------|
-| Array & Hashing    | 35    |
-| Two Pointers       | 15    |
-| Sliding Window     | 7     |
-| Stack              | 5     |
-| Binary Search      | 10    |
-| Linked List        | 10    |
-| Trees              | 12    |
-| Heap / Priority Q  | 5     |
-| Graphs             | 6     |
-| Dynamic Programming| 20    |
-| Backtracking       | 5     |
-| Math & Geometry    | 10    |
-| Others             | 10    |
-
-> 📝 Counts above are placeholders. I will adjust based on the full list you provide.
+| Type                | Count |
+|---------------------|-------|
+| Array / String      | 24    |
+| Two Pointers        | 5     |
+| Sliding Window      | 4     |
+| Matrix              | 5     |
+| Hashmap             | 9     |
+| Intervals           | 4     |
+| Stack               | 5     |
+| Linked List         | 11    |
+| Binary Tree General | 14    |
+| Binary Tree BFS     | 4     |
+| Binary Search Tree  | 3     |
+| Graph General       | 6     |
+| Graph BFS           | 3     |
+| Trie                | 3     |
+| Backtracking        | 7     |
+| Divide & Conquer    | 4     |
+| Kadane's Algorithm  | 2     |
+| Binary Search       | 7     |
+| Heap                | 4     |
+| Bit Manipulation    | 6     |
+| Math                | 6     |
+| 1D DP               | 5     |
+| Multidimensional DP | 9     |
 
 ---
 
@@ -38,9 +46,9 @@ Welcome to my LeetCode Top 150 journey! I'm solving the most frequently asked co
 
 | Difficulty | Count |
 |------------|-------|
-| 🟢 Easy    | 50    |
-| 🟡 Medium  | 75    |
-| 🔴 Hard    | 25    |
+| 🟢 Easy    | 40    |
+| 🟡 Medium  | 92    |
+| 🔴 Hard    | 18    |
 
 > 🧠 Counts above are placeholders. I will adjust based on the full list you provide.
 
