@@ -50,8 +50,6 @@ Welcome to my LeetCode Top 150 journey! I'm solving the most frequently asked co
 | 🟡 Medium  | 92    |
 | 🔴 Hard    | 18    |
 
-> 🧠 Counts above are placeholders. I will adjust based on the full list you provide.
-
 ---
 
 ## 🗂️ Problem List by Category
