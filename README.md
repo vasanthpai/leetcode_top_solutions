@@ -12,6 +12,40 @@ Welcome to my LeetCode Top 150 journey! I'm solving the most frequently asked co
 
 ---
 
+## 🧩 Problem Type Breakdown
+
+| Type               | Count |
+|--------------------|-------|
+| Array & Hashing    | 35    |
+| Two Pointers       | 15    |
+| Sliding Window     | 7     |
+| Stack              | 5     |
+| Binary Search      | 10    |
+| Linked List        | 10    |
+| Trees              | 12    |
+| Heap / Priority Q  | 5     |
+| Graphs             | 6     |
+| Dynamic Programming| 20    |
+| Backtracking       | 5     |
+| Math & Geometry    | 10    |
+| Others             | 10    |
+
+> 📝 Counts above are placeholders. I will adjust based on the full list you provide.
+
+---
+
+## 🎯 Difficulty Distribution
+
+| Difficulty | Count |
+|------------|-------|
+| 🟢 Easy    | 50    |
+| 🟡 Medium  | 75    |
+| 🔴 Hard    | 25    |
+
+> 🧠 Counts above are placeholders. I will adjust based on the full list you provide.
+
+---
+
 ## 🗂️ Problem List by Category
 
 ### 📦 Array & Hashing
@@ -39,6 +73,8 @@ Welcome to my LeetCode Top 150 journey! I'm solving the most frequently asked co
 |---|---------|------------|--------|----------|
 | 1 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | ⏳ To Do | [Link](./two_pointers/valid_palindrome.py) |
 
+> 📝 This is for demo purpose. Complete list will be out soon.
+
 ---
 
 ### 🧠 Dynamic Programming, Trees, Graphs...
@@ -59,8 +95,3 @@ I’m tracking key takeaways, patterns, and optimization ideas for each problem 
 - Use this to stay consistent and motivated
 
 ---
-
-## 💬 Connect
-
-If you're also grinding LeetCode or prepping for interviews, feel free to connect and collaborate!
-

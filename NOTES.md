@@ -1,0 +1,1 @@
+I’m tracking key takeaways, patterns, and optimization ideas here.
