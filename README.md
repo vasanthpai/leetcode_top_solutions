@@ -58,7 +58,15 @@ Welcome to my LeetCode Top 150 journey! I'm solving the most frequently asked co
 
 | # | Problem | Difficulty | Status | Solution |
 |---|---------|------------|--------|----------|
-| 1 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | Easy | ✅ Done | [Link](./arrays/mergeSortedArray.js) |
+| 1 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | Easy | ✅ Done | [Link](./arrays/88_Merge_Sorted%20_Array/mergeSortedArray.js) |
+
+---
+
+### 🔍 Binary Search
+
+| # | Problem | Difficulty | Status | Solution |
+|---|---------|------------|--------|----------|
+| 1 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Easy | ✅ Done | [Link](./binarySearch/35_Search_Insert_Position/searchInsertPosition.js) |
 
 ---
 
