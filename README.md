@@ -6,8 +6,8 @@ Welcome to my LeetCode Top 150 journey! I'm solving the most frequently asked co
 
 | Status     | Count |
 |------------|-------|
-| ✅ Solved   | 0     |
-| ⏳ To Do    | 150   |
+| ✅ Solved   | 1     |
+| ⏳ To Do    | 149   |
 | 💡 In Progress | 0 |
 
 ---
@@ -58,13 +58,11 @@ Welcome to my LeetCode Top 150 journey! I'm solving the most frequently asked co
 
 | # | Problem | Difficulty | Status | Solution |
 |---|---------|------------|--------|----------|
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | ⏳ To Do | [Link](./arrays/two_sum.py) |
-| 2 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | ⏳ To Do | [Link](./arrays/best_time_to_buy_and_sell_stock.py) |
-| 3 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | ⏳ To Do | [Link](./arrays/contains_duplicate.py) |
+| 1 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | Easy | ✅ Done | [Link](./arrays/mergeSortedArray.js) |
 
 ---
 
-### 🔡 String
+<!-- ### 🔡 String
 
 | # | Problem | Difficulty | Status | Solution |
 |---|---------|------------|--------|----------|
@@ -86,7 +84,7 @@ Welcome to my LeetCode Top 150 journey! I'm solving the most frequently asked co
 ### 🧠 Dynamic Programming, Trees, Graphs...
 > 🔜 Add more categories as you work through them!
 
----
+--- -->
 
 ## 🧾 Notes
 I’m tracking key takeaways, patterns, and optimization ideas for each problem in [`NOTES.md`](./NOTES.md) (coming soon).
