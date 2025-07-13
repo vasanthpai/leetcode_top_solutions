@@ -21,6 +21,15 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
+### ✅ 27. Remove Element
+- Use **two pointers** to overwrite values equal to `val`.
+- Maintain a `write index (index)` to store valid elements.
+- For each element in `nums`:
+  - If `nums[i] !== val`, assign `nums[index] = nums[i]` and increment `index`.
+- Return `index` as the new length of the array.
+
+---
+
 ## 🔍 Binary Search
 
 ### ✅ 35. Search Insert Position
