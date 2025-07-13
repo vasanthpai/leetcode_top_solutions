@@ -1,14 +1,14 @@
-# 🚀 LeetCode Top 150 – Progress Tracker
+# 🚀 LeetCode – Progress Tracker
 
-Welcome to my LeetCode Top 150 journey! I'm solving the most frequently asked coding interview questions and tracking my progress here. Each problem is categorized by topic and includes the difficulty level.
+Welcome to my LeetCode journey! I'm solving the most frequently asked coding interview questions and tracking my progress here. Each problem is categorized by topic and includes the difficulty level.
 
 ## 📈 Progress Overview
 
 | Status     | Count |
 |------------|-------|
-| ✅ Solved   | 1     |
-| ⏳ To Do    | 149   |
-| 💡 In Progress | 0 |
+| ✅ Solved   | 2     |
+<!-- | ⏳ To Do    | 149   | -->
+<!-- | 💡 In Progress | 0 | -->
 
 ---
 
@@ -16,39 +16,40 @@ Welcome to my LeetCode Top 150 journey! I'm solving the most frequently asked co
 
 | Type                | Count |
 |---------------------|-------|
-| Array / String      | 24    |
-| Two Pointers        | 5     |
-| Sliding Window      | 4     |
-| Matrix              | 5     |
-| Hashmap             | 9     |
-| Intervals           | 4     |
-| Stack               | 5     |
-| Linked List         | 11    |
-| Binary Tree General | 14    |
-| Binary Tree BFS     | 4     |
-| Binary Search Tree  | 3     |
-| Graph General       | 6     |
-| Graph BFS           | 3     |
-| Trie                | 3     |
-| Backtracking        | 7     |
-| Divide & Conquer    | 4     |
-| Kadane's Algorithm  | 2     |
-| Binary Search       | 7     |
-| Heap                | 4     |
-| Bit Manipulation    | 6     |
-| Math                | 6     |
-| 1D DP               | 5     |
-| Multidimensional DP | 9     |
+| Array / String      | 1     |
+| Two Pointers        | 0     |
+| Sliding Window      | 0     |
+| Matrix              | 0     |
+| Hashmap             | 0     |
+| Intervals           | 0     |
+| Stack               | 0     |
+| Linked List         | 0     |
+| Binary Tree General | 0     |
+| Binary Tree BFS     | 0     |
+| Binary Search Tree  | 0     |
+| Graph General       | 0     |
+| Graph BFS           | 0     |
+| Trie                | 0     |
+| Backtracking        | 0     |
+| Divide & Conquer    | 0     |
+| Kadane's Algorithm  | 0     |
+| Binary Search       | 0     |
+| Heap                | 0     |
+| Bit Manipulation    | 0     |
+| Math                | 0     |
+| 1D DP               | 0     |
+| Multidimensional DP | 0     |
 
+🔜 Add more categories as you work through them!
 ---
 
 ## 🎯 Difficulty Distribution
 
 | Difficulty | Count |
 |------------|-------|
-| 🟢 Easy    | 40    |
-| 🟡 Medium  | 92    |
-| 🔴 Hard    | 18    |
+| 🟢 Easy    | 2    |
+| 🟡 Medium  | 0    |
+| 🔴 Hard    | 0    |
 
 ---
 
