@@ -6,7 +6,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Status     | Count |
 |------------|-------|
-| ✅ Solved   | 2     |
+| ✅ Solved   | 3     |
 <!-- | ⏳ To Do    | 149   | -->
 <!-- | 💡 In Progress | 0 | -->
 
@@ -33,7 +33,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | Backtracking        | 0     |
 | Divide & Conquer    | 0     |
 | Kadane's Algorithm  | 0     |
-| Binary Search       | 0     |
+| Binary Search       | 2     |
 | Heap                | 0     |
 | Bit Manipulation    | 0     |
 | Math                | 0     |
@@ -47,7 +47,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Difficulty | Count |
 |------------|-------|
-| 🟢 Easy    | 2    |
+| 🟢 Easy    | 3    |
 | 🟡 Medium  | 0    |
 | 🔴 Hard    | 0    |
 
@@ -68,6 +68,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | # | Problem | Difficulty | Status | Solution |
 |---|---------|------------|--------|----------|
 | 1 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Easy | ✅ Done | [Link](./binarySearch/35_Search_Insert_Position/searchInsertPosition.js) |
+| 1 | [Missing Number](https://leetcode.com/problems/missing-number/) | Easy | ✅ Done | [Link](./binarySearch/268_Missing_Number/missing_Number.js) |
 
 ---
 
