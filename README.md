@@ -6,7 +6,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Status     | Count |
 |------------|-------|
-| ✅ Solved   | 6     |
+| ✅ Solved   | 7     |
 <!-- | ⏳ To Do    | 149   | -->
 <!-- | 💡 In Progress | 0 | -->
 
@@ -16,7 +16,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Type                | Count |
 |---------------------|-------|
-| Array / String      | 2     |
+| Array / String      | 3     |
 | Two Pointers        | 0     |
 | Sliding Window      | 0     |
 | Matrix              | 0     |
@@ -47,7 +47,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Difficulty | Count |
 |------------|-------|
-| 🟢 Easy    | 4    |
+| 🟢 Easy    | 5    |
 | 🟡 Medium  | 2    |
 | 🔴 Hard    | 0    |
 
@@ -61,6 +61,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 |---|---------|------------|--------|----------|
 | 1 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | Easy | ✅ Done | [Link](./arrays/88_Merge_Sorted_Array/mergeSortedArray.js) |
 | 2 | [Remove Element](https://leetcode.com/problems/remove-element/) | Easy | ✅ Done | [Link](./arrays/27_Remove_Element/removeElement.js) |
+| 3 | [Remove Element](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy | ✅ Done | [Link](./arrays/26_Remove_Duplicates_from_Sorted_Array/removeDuplicates.js) |
 
 ---
 

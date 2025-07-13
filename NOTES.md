@@ -30,6 +30,15 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
+### ✅ 26. Remove Duplicates from Sorted Array
+- Use **two pointers** to remove duplicates in-place.
+- `index` points to the position to write the next unique element.
+- Traverse the array from left to right:
+  - If `nums[i] !== nums[i - 1]`, assign `nums[index] = nums[i]`, and increment `index`.
+- Return `index` as the new length.
+
+---
+
 ## 🔍 Binary Search
 
 ### ✅ 35. Search Insert Position
