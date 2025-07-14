@@ -6,7 +6,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Status     | Count |
 |------------|-------|
-| ✅ Solved   | 7     |
+| ✅ Solved   | 8     |
 <!-- | ⏳ To Do    | 149   | -->
 <!-- | 💡 In Progress | 0 | -->
 
@@ -30,7 +30,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | Graph General       | 0     |
 | Graph BFS           | 0     |
 | Trie                | 0     |
-| Backtracking        | 0     |
+| Backtracking        | 1     |
 | Divide & Conquer    | 0     |
 | Kadane's Algorithm  | 0     |
 | Binary Search       | 4     |
@@ -48,7 +48,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | Difficulty | Count |
 |------------|-------|
 | 🟢 Easy    | 5    |
-| 🟡 Medium  | 2    |
+| 🟡 Medium  | 3    |
 | 🔴 Hard    | 0    |
 
 ---
@@ -75,6 +75,13 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | 4 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Medium | ✅ Done | [Link](./binarySearch/153_Find_Minimum_in_Rotated_Sorted_Array/findMinimuminRotatedSortedArray.js) |
 
 ---
+
+### 🔙 Backtracking
+
+| # | Problem | Difficulty | Status | Solution |
+|---|---------|------------|--------|----------|
+| 1 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | Medium | ✅ Done | [Link](./backtracking/39_Combination_Sum/combinationSum.js) |
+
 
 <!-- ### 🔡 String
 

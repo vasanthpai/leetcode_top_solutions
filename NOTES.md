@@ -83,6 +83,28 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
+## 🔙 Backtracking
+
+### ✅ 39. Combination Sum
+- Use **backtracking** to explore all unique combinations that sum to the target.
+- Each candidate number can be used **unlimited times**.
+
+- Recursive function `backtrack(start, path, sum)`:
+  - `start`: index to begin exploration (ensures no reordering)
+  - `path`: current combination being built
+  - `sum`: current sum of elements in `path`
+
+- Base Cases:
+  - If `sum === target`, store a **copy** of `path` in results.
+  - If `sum > target`, return (no need to continue).
+
+- Loop from `start` to end of `candidates`:
+  - Include `candidates[i]` in the path.
+  - Recurse with updated `sum` and same `i` (since reuse is allowed).
+  - After recursion, **backtrack** by removing last element from `path`.
+
+---
+
 ## ✅ Tips for Review
 - Review this file daily or weekly to build intuition.
 - Try recalling code in your mind using these logic cues.
