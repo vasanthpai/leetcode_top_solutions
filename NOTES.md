@@ -152,6 +152,29 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
+### ✅ 77. Combinations
+- Use **backtracking** to generate all combinations of `k` numbers from `1` to `n`.
+- Each number is used **once**, and combinations are built in **ascending order** to avoid duplicates.
+
+- Recursive function `backtrack(start, path)`:
+  - `start`: current number to begin choosing from
+  - `path`: current combination under construction
+
+- Base Case:
+  - When `path.length === k`, push a **copy** of `path` to results.
+
+- Optimization (Pruning):
+  - Loop from `start` to `n - (k - path.length) + 1`
+    - Ensures there are enough remaining numbers to complete the combination.
+    - Prevents unnecessary recursion.
+
+- For each number `i` in the loop:
+  - Add `i` to `path`.
+  - Recursively call `backtrack(i + 1, path)` to continue building.
+  - Remove the last element to **backtrack** and explore other possibilities.
+
+---
+
 ## ✅ Tips for Review
 - Review this file daily or weekly to build intuition.
 - Try recalling code in your mind using these logic cues.
