@@ -6,7 +6,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Status     | Count |
 |------------|-------|
-| ✅ Solved   | 9     |
+| ✅ Solved   | 10     |
 <!-- | ⏳ To Do    | 149   | -->
 <!-- | 💡 In Progress | 0 | -->
 
@@ -30,7 +30,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | Graph General       | 0     |
 | Graph BFS           | 0     |
 | Trie                | 0     |
-| Backtracking        | 2     |
+| Backtracking        | 3     |
 | Divide & Conquer    | 0     |
 | Kadane's Algorithm  | 0     |
 | Binary Search       | 4     |
@@ -48,7 +48,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | Difficulty | Count |
 |------------|-------|
 | 🟢 Easy    | 5    |
-| 🟡 Medium  | 4    |
+| 🟡 Medium  | 5    |
 | 🔴 Hard    | 0    |
 
 ---
@@ -82,6 +82,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 |---|---------|------------|--------|----------|
 | 1 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | Medium | ✅ Done | [Link](./backtracking/39_Combination_Sum/combinationSum.js) |
 | 2 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | Medium | ✅ Done | [Link](./backtracking/40_Combination_Sum_II/combinationSum2.js) |
+| 3 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | Medium | ✅ Done | [Link](./backtracking/17_Letter_Combinations_ofa_PhoneNumber/letterCombinations.js) |
 
 
 <!-- ### 🔡 String

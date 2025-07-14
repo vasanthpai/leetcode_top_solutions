@@ -131,6 +131,27 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
+### ✅ 17. Letter Combinations of a Phone Number
+- Given a string of digits from 2 to 9, return all possible letter combinations 
+  that the number could represent using the standard phone keypad.
+
+- Use a **digit-to-letter map** to look up letters for each digit.
+
+- Apply **backtracking** to build all possible combinations:
+  - Start from index 0 and an empty `path`.
+  - For each digit, try every corresponding letter.
+  - Add the letter to the current path and recurse to the next digit.
+  - Once the path length equals the number of digits, join and store it.
+  - Backtrack by removing the last letter to explore other paths.
+
+- Base Case:
+  - If `index === digits.length`, a complete combination is found.
+
+- Edge Case:
+  - If the input is an empty string, return an empty array (`[]`).
+
+---
+
 ## ✅ Tips for Review
 - Review this file daily or weekly to build intuition.
 - Try recalling code in your mind using these logic cues.
