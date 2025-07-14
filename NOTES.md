@@ -105,6 +105,32 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
+### ✅ 40. Combination Sum II
+- Use **backtracking** to find all unique combinations that sum to the target.
+- Each number in `candidates` can be used **at most once**.
+- Input array may contain **duplicates**, so combinations must be unique.
+
+- Sort the `candidates` array:
+  - This helps group duplicates together so they can be skipped.
+
+- Recursive function `backtrack(start, path, sum)`:
+  - `start`: index to begin exploring candidates.
+  - `path`: current combination being built.
+  - `sum`: running total of elements in `path`.
+
+- Base Cases:
+  - If `sum === target`, store a **copy** of `path` in results.
+  - If `sum > target`, stop recursion (prune the path).
+
+- Loop from `start` to end of candidates:
+  - Skip duplicate elements at the same level using:
+    - `if (i > start && candidates[i] === candidates[i - 1]) continue`
+  - Include `candidates[i]` in the path.
+  - Recurse with `i + 1` to ensure each number is used only once.
+  - After recursion, **backtrack** by removing the last number (`path.pop()`).
+
+---
+
 ## ✅ Tips for Review
 - Review this file daily or weekly to build intuition.
 - Try recalling code in your mind using these logic cues.
