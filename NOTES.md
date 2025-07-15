@@ -64,6 +64,17 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
+### ✅ 219. Contains Duplicate II
+- Check if there are two **same elements** in the array such that the indices are at most `k` apart.
+- Use a **Set as a sliding window** to track the last `k` elements.
+- Iterate through the array:
+  - If `nums[right]` is already in the Set → a duplicate is found within distance `k` → return `true`.
+  - Otherwise, add `nums[right]` to the Set.
+  - If the Set's size exceeds `k`, remove `nums[right - k]` to keep the window size at most `k`.
+- If no such duplicate is found by the end, return `false`.
+
+---
+
 ## 🔍 Binary Search
 
 ### ✅ 35. Search Insert Position
