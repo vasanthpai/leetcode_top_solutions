@@ -39,6 +39,19 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
+## 📦 Sliding Window
+
+### ✅ 209. Minimum Size Subarray Sum
+- Find the minimal length of a contiguous subarray with sum ≥ `target`.
+- Use **two pointers** `left` and `right` to represent a sliding window.
+- Move `right` forward, adding `nums[right]` to the running `sum`.
+- While `sum` is ≥ `target`:
+  - Update minimum length with the current window size (`right - left + 1`).
+  - Shrink the window from the left by subtracting `nums[left]` and incrementing `left`.
+- If no valid subarray found, return `0`.
+
+---
+
 ## 🔍 Binary Search
 
 ### ✅ 35. Search Insert Position
