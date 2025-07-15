@@ -52,6 +52,18 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
+### ✅ 3. Longest Substring Without Repeating Characters
+- Use **two pointers** `left` and `right` to represent a sliding window over the string.
+- Use a Map to store the last index of each character encountered.
+- Move `right` forward, adding characters to the window.
+- If a character is already in the Map and its last index is ≥ `left`:
+  - Move `left` to `map.get(char) + 1` to avoid duplicates.
+- Update the Map with the current character’s latest index.
+- Keep track of the maximum window size (`right - left + 1`).
+- Return the maximum length found.
+
+---
+
 ## 🔍 Binary Search
 
 ### ✅ 35. Search Insert Position

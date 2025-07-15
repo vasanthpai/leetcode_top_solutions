@@ -6,7 +6,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Status     | Count |
 |------------|-------|
-| ✅ Solved   | 12     |
+| ✅ Solved   | 13     |
 <!-- | ⏳ To Do    | 149   | -->
 <!-- | 💡 In Progress | 0 | -->
 
@@ -18,7 +18,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 |---------------------|-------|
 | Array / String      | 3     |
 | Two Pointers        | 0     |
-| Sliding Window      | 1     |
+| Sliding Window      | 2     |
 | Matrix              | 0     |
 | Hashmap             | 0     |
 | Intervals           | 0     |
@@ -48,7 +48,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | Difficulty | Count |
 |------------|-------|
 | 🟢 Easy    | 5    |
-| 🟡 Medium  | 7    |
+| 🟡 Medium  | 8    |
 | 🔴 Hard    | 0    |
 
 ---
@@ -70,6 +70,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | # | Problem | Difficulty | Status | Solution |
 |---|---------|------------|--------|----------|
 | 1 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | Medium | ✅ Done | [Link](./slidingWindow/209_Minimum_Size_Subarray_Sum/minSubArrayLen.js) |
+| 2 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | ✅ Done | [Link](./slidingWindow/3_LongestSubstring_Without_RepeatingCharacters/lengthOfLongestSubstring.js) |
 
 ---
 
