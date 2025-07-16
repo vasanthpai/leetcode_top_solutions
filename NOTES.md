@@ -103,6 +103,18 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
+### ✅ 1. Two Sum
+- Goal: Find two indices `i` and `j` such that `nums[i] + nums[j] === target`.
+- Use an object `{}` as a hash map to store numbers and their indices.
+- Loop through each element in `nums`:
+  - Calculate the difference: `diff = target - nums[i]`
+  - If `diff` exists in the map:
+    - Return `[map[diff], i]` — the index of the complement and current index.
+  - Else, store `nums[i]` in the map with value `i`.
+- Guarantees O(n) time by checking for complements in constant time.
+
+---
+
 ## 🔍 Binary Search
 
 ### ✅ 35. Search Insert Position
