@@ -6,7 +6,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Status     | Count |
 |------------|-------|
-| ✅ Solved   | 17     |
+| ✅ Solved   | 18     |
 <!-- | ⏳ To Do    | 149   | -->
 <!-- | 💡 In Progress | 0 | -->
 
@@ -20,7 +20,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | Two Pointers        | 0     |
 | Sliding Window      | 3     |
 | Matrix              | 0     |
-| Hashmap             | 3     |
+| Hashmap             | 4     |
 | Intervals           | 0     |
 | Stack               | 0     |
 | Linked List         | 0     |
@@ -47,7 +47,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Difficulty | Count |
 |------------|-------|
-| 🟢 Easy    | 9    |
+| 🟢 Easy    | 10    |
 | 🟡 Medium  | 8    |
 | 🔴 Hard    | 0    |
 
@@ -82,6 +82,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | 1 | [Ransom Note](https://leetcode.com/problems/ransom-note/) | Easy | ✅ Done | [Link](./Hashmap/383_Ransom_Note/canConstruct.js) |
 | 2 | [Word Pattern](https://leetcode.com/problems/word-pattern/description/) | Easy | ✅ Done | [Link](./Hashmap/290_Word_Pattern/wordPattern.js) |
 | 3 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | ✅ Done | [Link](./Hashmap/1_Two_Sum/twoSum.js) |
+| 4 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | ✅ Done | [Link](./Hashmap/242_Valid_Anagram/isAnagram.js) |
 
 ---
 

@@ -115,6 +115,17 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
+### ✅ 242. Valid Anagram
+- Goal: Check if strings `s` and `t` are anagrams (same characters, same counts).
+- If lengths differ, return `false`.
+- Use a hash map to count character frequency in `s`.
+- Loop through `t`:
+  - If a character is missing or overused (count is 0), return `false`.
+  - Otherwise, decrement the count.
+- If all characters match in frequency, return `true`.
+
+---
+
 ## 🔍 Binary Search
 
 ### ✅ 35. Search Insert Position
