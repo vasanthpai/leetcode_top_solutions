@@ -77,19 +77,6 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ## 🔑 HashMap
 
-### ✅ 209. Minimum Size Subarray Sum
-- Find the minimal length of a contiguous subarray with sum ≥ `target`.
-- Use **two pointers** `left` and `right` to represent a sliding window.
-- Move `right` forward, adding `nums[right]` to the running `sum`.
-- While `sum` is ≥ `target`:
-  - Update minimum length with the current window size (`right - left + 1`).
-  - Shrink the window from the left by subtracting `nums[left]` and incrementing `left`.
-- If no valid subarray found, return `0`.
-
----
-
-## 🔍 Binary Search
-
 ### ✅ 383. Ransom Note
 - Goal: Determine if you can construct `ransomNote` using letters from `magazine`.
 - Each letter in `magazine` can be used **only once**.
@@ -99,6 +86,33 @@ This file is a **quick-reference summary** of problem-solving logic for problems
   - If the character is **not in the map** or **count is 0**, return `false`.
   - Otherwise, decrement the character count.
 - If all characters are found in sufficient quantity, return `true`.
+
+---
+
+### ✅ 290. Word Pattern
+- Goal: Check if a string `s` follows the same **word pattern** as the given `pattern` string.
+- Split the string `s` into an array of words.
+- If the number of words doesn't match the length of `pattern`, return `false`.
+- Use two hash maps:
+  - `pattern → word` mapping
+  - `word → pattern` mapping
+- For each index `i`:
+  - If a mapping exists, ensure it's consistent.
+  - If no mapping exists, create a new entry in both maps.
+- If all mappings are valid, return `true`.
+
+---
+
+## 🔍 Binary Search
+
+### ✅ 35. Search Insert Position
+- Use binary search to find the **index of the target**.
+- If target exists in `nums`, return its index.
+- If not found, return the index where it would be **inserted** to maintain order.
+- Start with two pointers: `start = 0`, `end = nums.length - 1`
+  - If `nums[mid] < target`, move `start = mid + 1`
+  - If `nums[mid] > target`, move `end = mid - 1`
+- Loop exits when `start > end`. The correct insert index is `start`.
 
 ---
 
