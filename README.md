@@ -6,7 +6,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Status     | Count |
 |------------|-------|
-| ✅ Solved   | 14     |
+| ✅ Solved   | 15     |
 <!-- | ⏳ To Do    | 149   | -->
 <!-- | 💡 In Progress | 0 | -->
 
@@ -20,7 +20,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | Two Pointers        | 0     |
 | Sliding Window      | 3     |
 | Matrix              | 0     |
-| Hashmap             | 0     |
+| Hashmap             | 1     |
 | Intervals           | 0     |
 | Stack               | 0     |
 | Linked List         | 0     |
@@ -47,7 +47,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Difficulty | Count |
 |------------|-------|
-| 🟢 Easy    | 6    |
+| 🟢 Easy    | 7    |
 | 🟡 Medium  | 8    |
 | 🔴 Hard    | 0    |
 
@@ -72,6 +72,14 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | 1 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | Medium | ✅ Done | [Link](./slidingWindow/209_Minimum_Size_Subarray_Sum/minSubArrayLen.js) |
 | 2 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | ✅ Done | [Link](./slidingWindow/3_LongestSubstring_Without_RepeatingCharacters/lengthOfLongestSubstring.js) |
 | 3 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | Medium | ✅ Easy | [Link](./slidingWindow/219_Contains_Duplicate_II/containsNearbyDuplicate.js) |
+
+---
+
+### 🔑 HashMap
+
+| # | Problem | Difficulty | Status | Solution |
+|---|---------|------------|--------|----------|
+| 1 | [Ransom Note](https://leetcode.com/problems/ransom-note/) | Easy | ✅ Done | [Link](./Hashmap/383_Ransom_Note/canConstruct.js) |
 
 ---
 
