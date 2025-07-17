@@ -126,6 +126,20 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
+## 📏 Intervals
+
+### ✅ 228. Summary Ranges
+- Given a sorted array of unique integers, summarize consecutive numbers into **range strings**.
+- Use two pointers: `start` marks the beginning of the current range.
+- Loop through the array using `i`:
+  - If it's the **last element** or `nums[i] + 1 !== nums[i + 1]`, the current range ends.
+    - If `start === i`, it's a single number → push `nums[i]`
+    - Otherwise, push the range `nums[start]->nums[i]`
+  - Update `start = i + 1` to begin tracking the next range.
+- Continue until the end of the array and return the resulting list of ranges.
+
+---
+
 ## 🔍 Binary Search
 
 ### ✅ 35. Search Insert Position

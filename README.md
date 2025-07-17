@@ -6,7 +6,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Status     | Count |
 |------------|-------|
-| ✅ Solved   | 18     |
+| ✅ Solved   | 19     |
 <!-- | ⏳ To Do    | 149   | -->
 <!-- | 💡 In Progress | 0 | -->
 
@@ -21,7 +21,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | Sliding Window      | 3     |
 | Matrix              | 0     |
 | Hashmap             | 4     |
-| Intervals           | 0     |
+| Intervals           | 1     |
 | Stack               | 0     |
 | Linked List         | 0     |
 | Binary Tree General | 0     |
@@ -47,7 +47,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Difficulty | Count |
 |------------|-------|
-| 🟢 Easy    | 10    |
+| 🟢 Easy    | 11    |
 | 🟡 Medium  | 8    |
 | 🔴 Hard    | 0    |
 
@@ -83,6 +83,14 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | 2 | [Word Pattern](https://leetcode.com/problems/word-pattern/description/) | Easy | ✅ Done | [Link](./Hashmap/290_Word_Pattern/wordPattern.js) |
 | 3 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | ✅ Done | [Link](./Hashmap/1_Two_Sum/twoSum.js) |
 | 4 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | ✅ Done | [Link](./Hashmap/242_Valid_Anagram/isAnagram.js) |
+
+---
+
+### 📏 Intervals
+
+| # | Problem | Difficulty | Status | Solution |
+|---|---------|------------|--------|----------|
+| 1 | [Summary Ranges](https://leetcode.com/problems/summary-ranges/) | Easy | ✅ Done | [Link](./intervals/228_Summary_Ranges/summaryRanges.js) |
 
 ---
 
