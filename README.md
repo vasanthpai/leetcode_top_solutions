@@ -6,7 +6,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Status     | Count |
 |------------|-------|
-| ✅ Solved   | 19     |
+| ✅ Solved   | 20     |
 <!-- | ⏳ To Do    | 149   | -->
 <!-- | 💡 In Progress | 0 | -->
 
@@ -21,7 +21,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | Sliding Window      | 3     |
 | Matrix              | 0     |
 | Hashmap             | 4     |
-| Intervals           | 1     |
+| Intervals           | 2     |
 | Stack               | 0     |
 | Linked List         | 0     |
 | Binary Tree General | 0     |
@@ -48,7 +48,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | Difficulty | Count |
 |------------|-------|
 | 🟢 Easy    | 11    |
-| 🟡 Medium  | 8    |
+| 🟡 Medium  | 9    |
 | 🔴 Hard    | 0    |
 
 ---
@@ -91,6 +91,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | # | Problem | Difficulty | Status | Solution |
 |---|---------|------------|--------|----------|
 | 1 | [Summary Ranges](https://leetcode.com/problems/summary-ranges/) | Easy | ✅ Done | [Link](./intervals/228_Summary_Ranges/summaryRanges.js) |
+| 2 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | Medium | ✅ Done | [Link](./intervals/56_Merge_Intervals/merge.js) |
 
 ---
 

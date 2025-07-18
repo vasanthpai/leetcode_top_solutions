@@ -140,6 +140,18 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
+### ✅ 56. Merge Intervals
+- Given an array of intervals `[start, end]`, merge all overlapping intervals.
+- **Step 1:** Sort the intervals based on their start time.
+- **Step 2:** Initialize an empty array `merged` to store merged intervals.
+- **Step 3:** Loop through each `interval` in the sorted array:
+  - If `merged` is empty or the current `interval` does **not** overlap with the last interval in `merged` (i.e., `merged[-1][1] < interval[0]`), push the current `interval` to `merged`.
+  - Otherwise, there is overlap. Merge the current `interval` with the last interval in `merged` by updating the end value to the maximum of both ends.
+- **Step 4:** Continue until all intervals are processed.
+- **Step 5:** Return the `merged` array containing the non-overlapping intervals.
+
+---
+
 ## 🔍 Binary Search
 
 ### ✅ 35. Search Insert Position
