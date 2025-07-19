@@ -6,7 +6,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Status     | Count |
 |------------|-------|
-| ✅ Solved   | 20     |
+| ✅ Solved   | 21     |
 <!-- | ⏳ To Do    | 149   | -->
 <!-- | 💡 In Progress | 0 | -->
 
@@ -21,7 +21,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | Sliding Window      | 3     |
 | Matrix              | 0     |
 | Hashmap             | 4     |
-| Intervals           | 2     |
+| Intervals           | 3     |
 | Stack               | 0     |
 | Linked List         | 0     |
 | Binary Tree General | 0     |
@@ -48,7 +48,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | Difficulty | Count |
 |------------|-------|
 | 🟢 Easy    | 11    |
-| 🟡 Medium  | 9    |
+| 🟡 Medium  | 10    |
 | 🔴 Hard    | 0    |
 
 ---
@@ -92,6 +92,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 |---|---------|------------|--------|----------|
 | 1 | [Summary Ranges](https://leetcode.com/problems/summary-ranges/) | Easy | ✅ Done | [Link](./intervals/228_Summary_Ranges/summaryRanges.js) |
 | 2 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | Medium | ✅ Done | [Link](./intervals/56_Merge_Intervals/merge.js) |
+| 3 | [Insert Interval](https://leetcode.com/problems/insert-interval/) | Medium | ✅ Done | [Link](./intervals//57_Insert_Interval/insert.js) |
 
 ---
 

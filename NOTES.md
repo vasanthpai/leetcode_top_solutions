@@ -152,6 +152,33 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
+### ✅ 57. Insert Interval
+- Given a list of **non-overlapping, sorted intervals** and a new interval.
+- The goal is to **insert the new interval** and **merge any overlapping intervals**.
+- Initialize an empty result array and a pointer `i = 0`.
+
+- Step 1: Add all intervals that come **before** the newInterval (no overlap).
+  - While intervals[i].end < newInterval.start:
+    - Add intervals[i] to the result.
+    - Move to the next interval.
+
+- Step 2: Merge all intervals that **overlap** with newInterval.
+  - While intervals[i].start <= newInterval.end:
+    - Update newInterval.start = min(newInterval.start, intervals[i].start)
+    - Update newInterval.end = max(newInterval.end, intervals[i].end)
+    - Move to the next interval.
+
+- Step 3: Push the **merged newInterval** into the result.
+
+- Step 4: Add all remaining intervals (those that come **after** newInterval).
+  - While there are remaining intervals:
+    - Add intervals[i] to the result.
+    - Move to the next interval.
+
+- Return the result array.
+
+---
+
 ## 🔍 Binary Search
 
 ### ✅ 35. Search Insert Position
