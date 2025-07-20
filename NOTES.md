@@ -39,6 +39,20 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
+### ✅ 169. Majority Element
+
+- Use the **Boyer-Moore Voting Algorithm** to find the majority element in linear time and constant space.
+- Maintain:
+  - `majorityElement`: current candidate for the majority.
+  - `count`: tracks how confident we are in the current candidate.
+- Traverse the array:
+  - If `count === 0`, assign `majorityElement = nums[i]` and set `count = 1`.
+  - Else if `nums[i] === majorityElement`, increment `count`.
+  - Else, decrement `count`.
+- This works under the assumption that a majority element **always exists** (appears more than ⌊n/2⌋ times).
+
+---
+
 ## 📦 Sliding Window
 
 ### ✅ 209. Minimum Size Subarray Sum

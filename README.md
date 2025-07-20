@@ -6,7 +6,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Status     | Count |
 |------------|-------|
-| ✅ Solved   | 21     |
+| ✅ Solved   | 22     |
 <!-- | ⏳ To Do    | 149   | -->
 <!-- | 💡 In Progress | 0 | -->
 
@@ -16,7 +16,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Type                | Count |
 |---------------------|-------|
-| Array / String      | 3     |
+| Array / String      | 4     |
 | Two Pointers        | 0     |
 | Sliding Window      | 3     |
 | Matrix              | 0     |
@@ -47,7 +47,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Difficulty | Count |
 |------------|-------|
-| 🟢 Easy    | 11    |
+| 🟢 Easy    | 12    |
 | 🟡 Medium  | 10    |
 | 🔴 Hard    | 0    |
 
@@ -62,6 +62,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | 1 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | Easy | ✅ Done | [Link](./arrays/88_Merge_Sorted_Array/mergeSortedArray.js) |
 | 2 | [Remove Element](https://leetcode.com/problems/remove-element/) | Easy | ✅ Done | [Link](./arrays/27_Remove_Element/removeElement.js) |
 | 3 | [Remove Element](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy | ✅ Done | [Link](./arrays/26_Remove_Duplicates_from_Sorted_Array/removeDuplicates.js) |
+| 4 | [Majority Element](https://leetcode.com/problems/majority-element/) | Easy | ✅ Done | [Link](./arrays/169_Majority_Element/majorityElement.js) |
 
 ---
 
