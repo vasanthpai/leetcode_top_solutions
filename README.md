@@ -6,7 +6,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Status     | Count |
 |------------|-------|
-| ✅ Solved   | 22     |
+| ✅ Solved   | 23     |
 <!-- | ⏳ To Do    | 149   | -->
 <!-- | 💡 In Progress | 0 | -->
 
@@ -16,7 +16,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Type                | Count |
 |---------------------|-------|
-| Array / String      | 4     |
+| Array / String      | 5     |
 | Two Pointers        | 0     |
 | Sliding Window      | 3     |
 | Matrix              | 0     |
@@ -47,7 +47,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Difficulty | Count |
 |------------|-------|
-| 🟢 Easy    | 12    |
+| 🟢 Easy    | 13    |
 | 🟡 Medium  | 10    |
 | 🔴 Hard    | 0    |
 
@@ -63,6 +63,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | 2 | [Remove Element](https://leetcode.com/problems/remove-element/) | Easy | ✅ Done | [Link](./arrays/27_Remove_Element/removeElement.js) |
 | 3 | [Remove Element](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy | ✅ Done | [Link](./arrays/26_Remove_Duplicates_from_Sorted_Array/removeDuplicates.js) |
 | 4 | [Majority Element](https://leetcode.com/problems/majority-element/) | Easy | ✅ Done | [Link](./arrays/169_Majority_Element/majorityElement.js) |
+| 5 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | ✅ Done | [Link](./arrays/121_Best_Time_to_BuyandSell_Stock/maxProfit.js) |
 
 ---
 

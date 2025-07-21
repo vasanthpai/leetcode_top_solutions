@@ -53,6 +53,22 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
+### ✅ 121. Best Time to Buy and Sell Stock
+
+- Goal: Find the maximum profit from one buy-sell transaction.
+- Key insight: Track the lowest price seen so far to calculate potential profit at each step.
+- Maintain:
+  - `minPrice`: the smallest price encountered so far.
+  - `maxProfit`: the maximum profit achievable up to the current day.
+- Traverse the price array:
+  - Update `minPrice` if the current price is lower than the recorded `minPrice`.
+  - Calculate the current profit as `currentPrice - minPrice`.
+  - Update `maxProfit` if the current profit is greater than the recorded `maxProfit`.
+- Return `maxProfit` after processing all prices.
+- Time Complexity: O(n), Space Complexity: O(1).
+
+---
+
 ## 📦 Sliding Window
 
 ### ✅ 209. Minimum Size Subarray Sum
