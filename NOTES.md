@@ -89,6 +89,24 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
+### ✅ Reverse Words in a String
+
+- Goal: Reverse the order of words in a given string `s`.
+- Key steps:
+  - Trim leading and trailing whitespace using `trim()`.
+  - Split the string into words using `split(/\s+/)`, which handles multiple spaces.
+  - Reverse the array of words **in-place** using a two-pointer approach.
+  - Join the reversed words back into a string separated by a single space.
+- Details of reversing:
+  - Use two pointers, `start` and `end`.
+  - Swap the words at these indices and move pointers towards the center.
+  - Continue until pointers meet or cross.
+- Return the resulting string with reversed word order.
+- Time Complexity: O(n), where n is the length of the string.
+- Space Complexity: O(n) due to splitting the string into words.
+
+---
+
 ## 📦 Sliding Window
 
 ### ✅ 209. Minimum Size Subarray Sum

@@ -6,7 +6,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Status     | Count |
 |------------|-------|
-| ✅ Solved   | 24     |
+| ✅ Solved   | 25     |
 <!-- | ⏳ To Do    | 149   | -->
 <!-- | 💡 In Progress | 0 | -->
 
@@ -16,7 +16,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Type                | Count |
 |---------------------|-------|
-| Array / String      | 6     |
+| Array / String      | 7     |
 | Two Pointers        | 0     |
 | Sliding Window      | 3     |
 | Matrix              | 0     |
@@ -48,7 +48,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | Difficulty | Count |
 |------------|-------|
 | 🟢 Easy    | 13    |
-| 🟡 Medium  | 11    |
+| 🟡 Medium  | 12    |
 | 🔴 Hard    | 0    |
 
 ---
@@ -59,12 +59,13 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | # | Problem | Difficulty | Status | Solution |
 |---|---------|------------|--------|----------|
-| 1 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | Easy | ✅ Done | [Link](./arrays/88_Merge_Sorted_Array/mergeSortedArray.js) |
-| 2 | [Remove Element](https://leetcode.com/problems/remove-element/) | Easy | ✅ Done | [Link](./arrays/27_Remove_Element/removeElement.js) |
-| 3 | [Remove Element](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy | ✅ Done | [Link](./arrays/26_Remove_Duplicates_from_Sorted_Array/removeDuplicates.js) |
-| 4 | [Majority Element](https://leetcode.com/problems/majority-element/) | Easy | ✅ Done | [Link](./arrays/169_Majority_Element/majorityElement.js) |
-| 5 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | ✅ Done | [Link](./arrays/121_Best_Time_to_BuyandSell_Stock/maxProfit.js) |
-| 6 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | Medium | ✅ Done | [Link](./arrays/189_Rotate_Array/rotate.js) |
+| 1 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | Easy | ✅ Done | [Link](./arrays_string/88_Merge_Sorted_Array/mergeSortedArray.js) |
+| 2 | [Remove Element](https://leetcode.com/problems/remove-element/) | Easy | ✅ Done | [Link](./arrays_string/27_Remove_Element/removeElement.js) |
+| 3 | [Remove Element](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy | ✅ Done | [Link](./arrays_string/26_Remove_Duplicates_from_Sorted_Array/removeDuplicates.js) |
+| 4 | [Majority Element](https://leetcode.com/problems/majority-element/) | Easy | ✅ Done | [Link](./arrays_string/169_Majority_Element/majorityElement.js) |
+| 5 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | ✅ Done | [Link](./arrays_string/121_Best_Time_to_BuyandSell_Stock/maxProfit.js) |
+| 6 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | Medium | ✅ Done | [Link](./arrays_string/189_Rotate_Array/rotate.js) |
+| 7 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | Medium | ✅ Done | [Link](./arrays_string/151_Reverse_Words_in_a_String/reverseWords.js) |
 
 ---
 
