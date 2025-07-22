@@ -69,6 +69,26 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
+### ✅ 189. Rotate Array
+
+- Goal: Rotate an array to the right by `k` steps.
+- Key insight: Rotating by `k` steps can be achieved by reversing parts of the array.
+- Approach:
+  - Compute `n = k % nums.length` to handle cases where `k` is larger than the array length.
+  - Reverse the entire array.
+  - Reverse the first `n` elements.
+  - Reverse the remaining elements from `n` to the end.
+- This sequence of reversals shifts the elements correctly to the right.
+- Maintain:
+  - An in-place `reverse` helper function to reverse elements between indices `start` and `end`.
+- Steps breakdown:
+  - Reverse full array: `[1,2,3,4,5,6,7]` → `[7,6,5,4,3,2,1]`
+  - Reverse first `n` elements: `[7,6,5]` → `[5,6,7]` → `[5,6,7,4,3,2,1]`
+  - Reverse remaining elements: `[4,3,2,1]` → `[1,2,3,4]` → `[5,6,7,1,2,3,4]`
+- Time Complexity: O(n), Space Complexity: O(1) — in-place operations with no extra array.
+
+---
+
 ## 📦 Sliding Window
 
 ### ✅ 209. Minimum Size Subarray Sum
