@@ -89,7 +89,7 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
-### ✅ Reverse Words in a String
+### ✅ 151. Reverse Words in a String
 
 - Goal: Reverse the order of words in a given string `s`.
 - Key steps:
@@ -104,6 +104,25 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 - Return the resulting string with reversed word order.
 - Time Complexity: O(n), where n is the length of the string.
 - Space Complexity: O(n) due to splitting the string into words.
+
+---
+
+### ✅ 12. Integer to Roman
+
+- **Goal**: Convert an integer `num` (1–3999) to its Roman numeral form.
+
+- **Approach**:
+  - Use two arrays:  
+    - `val`: Decimal values in descending order.  
+    - `symbol`: Corresponding Roman numerals.
+  - Loop through `val`:
+    - While `num >= val[i]`, subtract and append `symbol[i]` to the result.
+
+- **Example** (`3749`):  
+  → `MMM` (3000) + `DCC` (700) + `XL` (40) + `IX` (9)  
+  → `"MMMDCCXLIX"`
+
+- **Time/Space Complexity**: O(1) — arrays are fixed size.
 
 ---
 

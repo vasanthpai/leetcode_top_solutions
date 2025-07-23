@@ -6,7 +6,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Status     | Count |
 |------------|-------|
-| ✅ Solved   | 25     |
+| ✅ Solved   | 26     |
 <!-- | ⏳ To Do    | 149   | -->
 <!-- | 💡 In Progress | 0 | -->
 
@@ -16,7 +16,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Type                | Count |
 |---------------------|-------|
-| Array / String      | 7     |
+| Array / String      | 8     |
 | Two Pointers        | 0     |
 | Sliding Window      | 3     |
 | Matrix              | 0     |
@@ -48,7 +48,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | Difficulty | Count |
 |------------|-------|
 | 🟢 Easy    | 13    |
-| 🟡 Medium  | 12    |
+| 🟡 Medium  | 13    |
 | 🔴 Hard    | 0    |
 
 ---
@@ -66,6 +66,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | 5 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | ✅ Done | [Link](./arrays_string/121_Best_Time_to_BuyandSell_Stock/maxProfit.js) |
 | 6 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | Medium | ✅ Done | [Link](./arrays_string/189_Rotate_Array/rotate.js) |
 | 7 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | Medium | ✅ Done | [Link](./arrays_string/151_Reverse_Words_in_a_String/reverseWords.js) |
+| 7 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | Medium | ✅ Done | [Link](./arrays_string/12_Integer_to_Roman/intToRoman.js) |
 
 ---
 
@@ -146,7 +147,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 --- -->
 
 ## 🧾 Notes
-I’m tracking key takeaways, patterns, and optimization ideas for each problem in [`NOTES.md`](./NOTES.md) (coming soon).
+I’m tracking key takeaways, patterns, and optimization ideas for each problem in [`NOTES.md`](./NOTES.md)
 
 ---
 
