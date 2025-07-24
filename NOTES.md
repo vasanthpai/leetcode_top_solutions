@@ -126,6 +126,25 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
+## 🧭 Two Pointers 
+
+### ✅ 125. Valid Palindrome
+- Determine if a string is a **valid palindrome**, considering **only alphanumeric characters** and ignoring case.
+- Use **two pointers**:
+  - `i` → starts from the beginning of the cleaned string
+  - `j` → starts from the end of the cleaned string
+- Steps:
+  1. Normalize the string:
+     - Convert to lowercase
+     - Remove all non-alphanumeric characters using regex: `/[^a-z0-9]/g`
+  2. Initialize two pointers: `i = 0`, `j = s.length - 1`
+  3. While `i < j`:
+     - If `s[i] !== s[j]`, return `false` (not a palindrome)
+     - Else, move inward: `i++`, `j--`
+  4. If loop completes, return `true` (it is a palindrome)
+
+---
+
 ## 📦 Sliding Window
 
 ### ✅ 209. Minimum Size Subarray Sum
