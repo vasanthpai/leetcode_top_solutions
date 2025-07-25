@@ -6,7 +6,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Status     | Count |
 |------------|-------|
-| ✅ Solved   | 27     |
+| ✅ Solved   | 28     |
 <!-- | ⏳ To Do    | 149   | -->
 <!-- | 💡 In Progress | 0 | -->
 
@@ -17,7 +17,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | Type                | Count |
 |---------------------|-------|
 | Array / String      | 8     |
-| Two Pointers        | 1     |
+| Two Pointers        | 2     |
 | Sliding Window      | 3     |
 | Matrix              | 0     |
 | Hashmap             | 4     |
@@ -47,7 +47,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Difficulty | Count |
 |------------|-------|
-| 🟢 Easy    | 14    |
+| 🟢 Easy    | 15    |
 | 🟡 Medium  | 13    |
 | 🔴 Hard    | 0    |
 
@@ -75,6 +75,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | # | Problem | Difficulty | Status | Solution |
 |---|---------|------------|--------|----------|
 | 1 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | ✅ Done | [Link](./two_pointers/125_Valid_Palindrome/isPalindrome.js) |
+| 2 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | Easy | ✅ Done | [Link](./two_pointers/392_Is_Subsequence/isSubsequence.js) |
 
 ---
 

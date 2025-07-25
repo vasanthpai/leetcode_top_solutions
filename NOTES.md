@@ -145,6 +145,23 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
+### ✅ 392. Is Subsequence
+- Check if string `s` is a **subsequence** of string `t`.
+- A subsequence means all characters of `s` appear in `t` **in order**, but not necessarily contiguously.
+- Use **two pointers**:
+  - `i` → tracks characters in `s`
+  - `j` → scans through `t`
+
+- Steps:
+  1. Initialize pointers: `i = 0`, `j = 0`
+  2. While `i < s.length` and `j < t.length`:
+     - If `s[i] === t[j]`, move both: `i++`, `j++`
+     - Else, just move `j++` (skip unmatched char in `t`)
+  3. If `i === s.length`, return `true` (all chars in `s` matched in order)
+  4. Otherwise, return `false`
+
+---
+
 ## 📦 Sliding Window
 
 ### ✅ 209. Minimum Size Subarray Sum
