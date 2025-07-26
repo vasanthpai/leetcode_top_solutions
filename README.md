@@ -77,6 +77,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | 1 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | ✅ Done | [Link](./two_pointers/125_Valid_Palindrome/isPalindrome.js) |
 | 2 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | Easy | ✅ Done | [Link](./two_pointers/392_Is_Subsequence/isSubsequence.js) |
 | 3 | [Reverse String](https://leetcode.com/problems/reverse-string/) | Easy | ✅ Done | [Link](./two_pointers/344_Reverse_String/reverseString.js) |
+| 4 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | Medium | ✅ Done | [Link](./two_pointers/75_Sort_Colors/sortColors.js) |
 
 ---
 

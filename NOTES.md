@@ -179,6 +179,30 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
+### ✅ 75. Sort Colors
+- Sort an array `nums` containing only `0`, `1`, and `2` **in-place**.
+- Must be done in **one pass** using **O(1)** space.
+
+- Key Idea:
+  - Use the **Dutch National Flag Algorithm** with three pointers:
+    - `low` → position to place the next `0`
+    - `mid` → current element being evaluated
+    - `high` → position to place the next `2`
+
+- Steps:
+  1. Initialize: `low = 0`, `mid = 0`, `high = nums.length - 1`
+  2. While `mid <= high`:
+     - If `nums[mid] === 0`:
+       - Swap `nums[low]` and `nums[mid]`
+       - Increment both `low` and `mid`
+     - Else if `nums[mid] === 1`:
+       - Just increment `mid`
+     - Else (`nums[mid] === 2`):
+       - Swap `nums[mid]` and `nums[high]`
+       - Decrement `high` (don't move `mid` yet)
+
+---
+
 ## 📦 Sliding Window
 
 ### ✅ 209. Minimum Size Subarray Sum
