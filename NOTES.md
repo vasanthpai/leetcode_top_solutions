@@ -162,6 +162,23 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
+### ✅ 344. Reverse String
+- Reverse a character array **in-place** using `O(1)` extra memory.
+- A two-pointer approach efficiently swaps characters from both ends.
+
+- Use **two pointers**:
+  - `i` → starts at the beginning of the array
+  - `j` → starts at the end of the array
+
+- Steps:
+  1. Initialize: `i = 0`, `j = s.length - 1`
+  2. While `i < j`:
+     - Swap `s[i]` and `s[j]`
+     - Move inward: `i++`, `j--`
+  3. When pointers meet or cross, the array is fully reversed
+
+---
+
 ## 📦 Sliding Window
 
 ### ✅ 209. Minimum Size Subarray Sum

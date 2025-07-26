@@ -6,7 +6,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Status     | Count |
 |------------|-------|
-| ✅ Solved   | 28     |
+| ✅ Solved   | 29     |
 <!-- | ⏳ To Do    | 149   | -->
 <!-- | 💡 In Progress | 0 | -->
 
@@ -17,7 +17,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | Type                | Count |
 |---------------------|-------|
 | Array / String      | 8     |
-| Two Pointers        | 2     |
+| Two Pointers        | 3     |
 | Sliding Window      | 3     |
 | Matrix              | 0     |
 | Hashmap             | 4     |
@@ -47,7 +47,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Difficulty | Count |
 |------------|-------|
-| 🟢 Easy    | 15    |
+| 🟢 Easy    | 16    |
 | 🟡 Medium  | 13    |
 | 🔴 Hard    | 0    |
 
@@ -76,6 +76,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 |---|---------|------------|--------|----------|
 | 1 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | ✅ Done | [Link](./two_pointers/125_Valid_Palindrome/isPalindrome.js) |
 | 2 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | Easy | ✅ Done | [Link](./two_pointers/392_Is_Subsequence/isSubsequence.js) |
+| 3 | [Reverse String](https://leetcode.com/problems/reverse-string/) | Easy | ✅ Done | [Link](./two_pointers/344_Reverse_String/reverseString.js) |
 
 ---
 
