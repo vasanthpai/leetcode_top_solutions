@@ -6,7 +6,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Status     | Count |
 |------------|-------|
-| ✅ Solved   | 29     |
+| ✅ Solved   | 30     |
 <!-- | ⏳ To Do    | 149   | -->
 <!-- | 💡 In Progress | 0 | -->
 
@@ -17,7 +17,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | Type                | Count |
 |---------------------|-------|
 | Array / String      | 8     |
-| Two Pointers        | 3     |
+| Two Pointers        | 4     |
 | Sliding Window      | 3     |
 | Matrix              | 0     |
 | Hashmap             | 4     |
@@ -48,7 +48,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | Difficulty | Count |
 |------------|-------|
 | 🟢 Easy    | 16    |
-| 🟡 Medium  | 13    |
+| 🟡 Medium  | 14    |
 | 🔴 Hard    | 0    |
 
 ---
