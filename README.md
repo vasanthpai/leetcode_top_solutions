@@ -6,7 +6,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Status     | Count |
 |------------|-------|
-| ✅ Solved   | 30     |
+| ✅ Solved   | 31     |
 <!-- | ⏳ To Do    | 149   | -->
 <!-- | 💡 In Progress | 0 | -->
 
@@ -17,7 +17,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | Type                | Count |
 |---------------------|-------|
 | Array / String      | 8     |
-| Two Pointers        | 4     |
+| Two Pointers        | 5     |
 | Sliding Window      | 3     |
 | Matrix              | 0     |
 | Hashmap             | 4     |
@@ -48,7 +48,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | Difficulty | Count |
 |------------|-------|
 | 🟢 Easy    | 16    |
-| 🟡 Medium  | 14    |
+| 🟡 Medium  | 15    |
 | 🔴 Hard    | 0    |
 
 ---
@@ -78,6 +78,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | 2 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | Easy | ✅ Done | [Link](./two_pointers/392_Is_Subsequence/isSubsequence.js) |
 | 3 | [Reverse String](https://leetcode.com/problems/reverse-string/) | Easy | ✅ Done | [Link](./two_pointers/344_Reverse_String/reverseString.js) |
 | 4 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | Medium | ✅ Done | [Link](./two_pointers/75_Sort_Colors/sortColors.js) |
+| 5 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Medium | ✅ Done | [Link](./two_pointers/Two_Sum_II-Input_ArrayIs_Sorted/twoSum.js) |
 
 ---
 

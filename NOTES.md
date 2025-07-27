@@ -203,6 +203,20 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
+### ✅ 167. Two Sum II - Input Array Is Sorted
+- Use the **two-pointer** approach since the array is sorted in non-decreasing order.
+- Initialize:
+  - `left = 0` (start of array)
+  - `right = nums.length - 1` (end of array)
+- While `left < right`:
+  - Compute `sum = nums[left] + nums[right]`
+  - If `sum === target`, return `[left + 1, right + 1]` (convert to 1-based index)
+  - If `sum < target`, increment `left` (move toward larger numbers)
+  - If `sum > target`, decrement `right` (move toward smaller numbers)
+- No need for a fallback return, since the problem guarantees one solution.
+
+---
+
 ## 📦 Sliding Window
 
 ### ✅ 209. Minimum Size Subarray Sum
