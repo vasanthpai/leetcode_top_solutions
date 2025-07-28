@@ -357,6 +357,30 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
+## 🧺 Stack
+
+### ✅ 20. Valid Parentheses
+- Determine if a string has **valid parentheses/bracket pairing**: `()`, `{}`, `[]`.
+- Use a **stack** to track **opening brackets**.
+- Use a **map (object)** to match **closing brackets** to their respective opening ones.
+
+- Steps:
+  1. Initialize an empty stack: `stack = []`
+  2. Define bracket pairs:  
+     ```js
+     const pairs = { ')': '(', ']': '[', '}': '{' };
+     ```
+  3. Loop through each character in the string:
+     - If it's a **closing bracket** (`)`, `]`, or `}`):
+       - Check if the **top of the stack** matches the corresponding opening bracket
+       - If not, return `false`
+     - If it's an **opening bracket**, push it onto the stack
+  4. After the loop:
+     - If the stack is **empty**, all brackets matched → return `true`
+     - If not, there are unmatched brackets → return `false`
+
+---
+
 ## 🔍 Binary Search
 
 ### ✅ 35. Search Insert Position

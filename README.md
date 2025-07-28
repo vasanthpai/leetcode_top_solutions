@@ -6,7 +6,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Status     | Count |
 |------------|-------|
-| ✅ Solved   | 31     |
+| ✅ Solved   | 32     |
 <!-- | ⏳ To Do    | 149   | -->
 <!-- | 💡 In Progress | 0 | -->
 
@@ -22,7 +22,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | Matrix              | 0     |
 | Hashmap             | 4     |
 | Intervals           | 3     |
-| Stack               | 0     |
+| Stack               | 1     |
 | Linked List         | 0     |
 | Binary Tree General | 0     |
 | Binary Tree BFS     | 0     |
@@ -47,7 +47,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Difficulty | Count |
 |------------|-------|
-| 🟢 Easy    | 16    |
+| 🟢 Easy    | 17    |
 | 🟡 Medium  | 15    |
 | 🔴 Hard    | 0    |
 
@@ -110,6 +110,14 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | 1 | [Summary Ranges](https://leetcode.com/problems/summary-ranges/) | Easy | ✅ Done | [Link](./intervals/228_Summary_Ranges/summaryRanges.js) |
 | 2 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | Medium | ✅ Done | [Link](./intervals/56_Merge_Intervals/merge.js) |
 | 3 | [Insert Interval](https://leetcode.com/problems/insert-interval/) | Medium | ✅ Done | [Link](./intervals//57_Insert_Interval/insert.js) |
+
+---
+
+### 🧺 Stack
+
+| # | Problem | Difficulty | Status | Solution |
+|---|---------|------------|--------|----------|
+| 1 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | ✅ Done | [Link](./stack/20_Valid_Parentheses/isValid.js) |
 
 ---
 
