@@ -381,6 +381,30 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
+### ✅ 1021. Remove Outermost Parentheses
+- Goal: Remove the **outermost parentheses** from every **primitive** valid parentheses substring.
+- A **primitive** is a smallest non-empty valid parentheses substring that cannot be split further.
+
+- Use a **depth counter** to track the current level of nesting.
+
+- Steps:
+  1. Initialize an empty string to store the result.
+  2. Set a `depth` variable to 0 to track how deep inside nested parentheses you are.
+  3. Iterate through each character in the input string:
+     - If the character is `'('`:
+       - If `depth > 0`, it means it's **not outermost**, so include it in the result.
+       - Increment the `depth` counter.
+     - If the character is `')'`:
+       - Decrement the `depth` counter first.
+       - If `depth > 0` **after decrement**, it means it's **not outermost**, so include it in the result.
+  4. Return the final string after the loop ends.
+
+- Key idea:
+  - The **outermost parentheses** of a primitive are the first `'('` when `depth == 0` and the matching `')'` when `depth == 1`. These are skipped.
+  - All inner parentheses are preserved.
+
+---
+
 ## 🔍 Binary Search
 
 ### ✅ 35. Search Insert Position

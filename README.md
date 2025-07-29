@@ -6,7 +6,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Status     | Count |
 |------------|-------|
-| ✅ Solved   | 32     |
+| ✅ Solved   | 33     |
 <!-- | ⏳ To Do    | 149   | -->
 <!-- | 💡 In Progress | 0 | -->
 
@@ -22,7 +22,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | Matrix              | 0     |
 | Hashmap             | 4     |
 | Intervals           | 3     |
-| Stack               | 1     |
+| Stack               | 2     |
 | Linked List         | 0     |
 | Binary Tree General | 0     |
 | Binary Tree BFS     | 0     |
@@ -47,7 +47,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Difficulty | Count |
 |------------|-------|
-| 🟢 Easy    | 17    |
+| 🟢 Easy    | 18    |
 | 🟡 Medium  | 15    |
 | 🔴 Hard    | 0    |
 
@@ -118,6 +118,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | # | Problem | Difficulty | Status | Solution |
 |---|---------|------------|--------|----------|
 | 1 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | ✅ Done | [Link](./stack/20_Valid_Parentheses/isValid.js) |
+| 2 | [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | Easy | ✅ Done | [Link](./stack/1021_Remove_Outermost_Parentheses/removeOuterParentheses%20.js) |
 
 ---
 
