@@ -6,7 +6,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Status     | Count |
 |------------|-------|
-| ✅ Solved   | 33     |
+| ✅ Solved   | 34     |
 <!-- | ⏳ To Do    | 149   | -->
 <!-- | 💡 In Progress | 0 | -->
 
@@ -18,7 +18,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 |---------------------|-------|
 | Array / String      | 8     |
 | Two Pointers        | 5     |
-| Sliding Window      | 3     |
+| Sliding Window      | 4     |
 | Matrix              | 0     |
 | Hashmap             | 4     |
 | Intervals           | 3     |
@@ -47,7 +47,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Difficulty | Count |
 |------------|-------|
-| 🟢 Easy    | 18    |
+| 🟢 Easy    | 19    |
 | 🟡 Medium  | 15    |
 | 🔴 Hard    | 0    |
 
@@ -88,7 +88,8 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 |---|---------|------------|--------|----------|
 | 1 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | Medium | ✅ Done | [Link](./slidingWindow/209_Minimum_Size_Subarray_Sum/minSubArrayLen.js) |
 | 2 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | ✅ Done | [Link](./slidingWindow/3_LongestSubstring_Without_RepeatingCharacters/lengthOfLongestSubstring.js) |
-| 3 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | Medium | ✅ Easy | [Link](./slidingWindow/219_Contains_Duplicate_II/containsNearbyDuplicate.js) |
+| 3 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | Easy | ✅ Done | [Link](./slidingWindow/219_Contains_Duplicate_II/containsNearbyDuplicate.js) |
+| 4 | [Maximum Average Subarray I](https://leetcode.com/problems/contains-duplicate-ii/) | Easy | ✅ Done | [Link](./slidingWindow/643_Maximum_AverageSubarray_I/findMaxAverage.js) |
 
 ---
 

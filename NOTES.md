@@ -253,6 +253,17 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
+### ✅ 643. Maximum Average Subarray I
+- Given an array `nums` and integer `k`, find the **maximum average** of any contiguous subarray of length `k`.
+- **Step 1:** Compute the sum of the first `k` elements — this is the initial window.
+- **Step 2:** Slide the window through the array:
+  - Subtract the element leaving the window.
+  - Add the new element entering the window.
+  - Update the maximum sum seen so far.
+- **Step 3:** Return `maxSum / k` as the maximum average.
+
+---
+
 ## 🔑 HashMap
 
 ### ✅ 383. Ransom Note
