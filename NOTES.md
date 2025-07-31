@@ -217,6 +217,18 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
+### ✅ 283. Move Zeroes
+- Given an integer array `nums`, move all `0`'s to the end of it while maintaining the **relative order** of the non-zero elements.
+- **Step 1:** Initialize a pointer `j = 0` to track the position where the next non-zero element should be placed.
+- **Step 2:** Loop through the array with index `i`:
+  - If `nums[i] !== 0`, swap `nums[i]` with `nums[j]`.
+  - Increment `j` to move to the next available slot.
+- **Step 3:** Continue this process to shift all non-zero elements to the front.
+  - Zeroes are automatically pushed to the end due to the swaps.
+- **Note:** The array is modified **in-place** with `O(n)` time and `O(1)` space complexity.
+
+---
+
 ## 📦 Sliding Window
 
 ### ✅ 209. Minimum Size Subarray Sum
