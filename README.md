@@ -6,7 +6,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Status     | Count |
 |------------|-------|
-| ✅ Solved   | 35     |
+| ✅ Solved   | 36     |
 <!-- | ⏳ To Do    | 149   | -->
 <!-- | 💡 In Progress | 0 | -->
 
@@ -16,7 +16,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Type                | Count |
 |---------------------|-------|
-| Array / String      | 8     |
+| Array / String      | 9     |
 | Two Pointers        | 6     |
 | Sliding Window      | 4     |
 | Matrix              | 0     |
@@ -47,7 +47,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Difficulty | Count |
 |------------|-------|
-| 🟢 Easy    | 20    |
+| 🟢 Easy    | 21    |
 | 🟡 Medium  | 15    |
 | 🔴 Hard    | 0    |
 
@@ -67,6 +67,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | 6 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | Medium | ✅ Done | [Link](./arrays_string/189_Rotate_Array/rotate.js) |
 | 7 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | Medium | ✅ Done | [Link](./arrays_string/151_Reverse_Words_in_a_String/reverseWords.js) |
 | 7 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | Medium | ✅ Done | [Link](./arrays_string/12_Integer_to_Roman/intToRoman.js) |
+| 8 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | Easy | ✅ Done | [Link](./arrays_string/118_Pascal's_Triangle/generate.js) |
 
 ---
 

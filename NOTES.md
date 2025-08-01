@@ -126,6 +126,21 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
+### ✅ 118. Pascal's Triangle
+- Generate the first `numRows` of **Pascal's Triangle**.
+- Use the **previous row** to build the current row:
+  - First and last elements are `1`.
+  - Other elements: `row[j] = previous_row[j-1] + previous_row[j]`.
+  
+#### Approach:
+1. Initialize `results[]` to store rows.
+2. For each row:
+   - Create it with `1`s.
+   - Update middle values using the formula above.
+3. Return `results`.
+
+---
+
 ## 🧭 Two Pointers 
 
 ### ✅ 125. Valid Palindrome
