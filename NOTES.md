@@ -141,6 +141,18 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
+### ✅ 119. Pascal's Triangle II
+- Return the **rowIndex-th** row of Pascal’s Triangle.
+- **Update in-place** to save space.
+
+#### Approach:
+1. Initialize `row[]` of size `rowIndex + 1`, with the first element as `1`.
+2. Update values from right to left:
+   - `row[j] = row[j] + row[j-1]`.
+3. Return `row[]`.
+
+---
+
 ## 🧭 Two Pointers 
 
 ### ✅ 125. Valid Palindrome
