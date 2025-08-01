@@ -40,7 +40,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | 1D DP               | 0     |
 | Multidimensional DP | 0     |
 
-🔜 Add more categories as you work through them!
+<!-- 🔜 Add more categories as you work through them! -->
 ---
 
 ## 🎯 Difficulty Distribution
