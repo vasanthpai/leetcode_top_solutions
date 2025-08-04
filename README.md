@@ -6,7 +6,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Status     | Count |
 |------------|-------|
-| ✅ Solved   | 37     |
+| ✅ Solved   | 38    |
 <!-- | ⏳ To Do    | 149   | -->
 <!-- | 💡 In Progress | 0 | -->
 
@@ -18,7 +18,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 |---------------------|-------|
 | Array / String      | 10    |
 | Two Pointers        | 6     |
-| Sliding Window      | 4     |
+| Sliding Window      | 5     |
 | Matrix              | 0     |
 | Hashmap             | 4     |
 | Intervals           | 3     |
@@ -48,7 +48,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | Difficulty | Count |
 |------------|-------|
 | 🟢 Easy    | 22    |
-| 🟡 Medium  | 15    |
+| 🟡 Medium  | 16    |
 | 🔴 Hard    | 0    |
 
 ---
@@ -93,6 +93,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | 2 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | ✅ Done | [Link](./slidingWindow/3_LongestSubstring_Without_RepeatingCharacters/lengthOfLongestSubstring.js) |
 | 3 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | Easy | ✅ Done | [Link](./slidingWindow/219_Contains_Duplicate_II/containsNearbyDuplicate.js) |
 | 4 | [Maximum Average Subarray I](https://leetcode.com/problems/contains-duplicate-ii/) | Easy | ✅ Done | [Link](./slidingWindow/643_Maximum_AverageSubarray_I/findMaxAverage.js) |
+| 5 | [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/) | Medium | ✅ Done | [Link](./slidingWindow/904_Fruit_Into_Baskets/totalFruit.js) |
 
 ---
 

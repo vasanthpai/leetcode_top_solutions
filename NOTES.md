@@ -303,6 +303,20 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
+### ✅ 904. Fruit Into Baskets
+
+- Use the **Sliding Window** approach to find the longest subarray with at most **2 distinct fruit types**.
+- Track:
+  - `left`: window start
+  - `basket`: Map of fruit counts
+  - `maxLen`: longest valid window seen
+- For each `right` index:
+  - Add `fruits[right]` to the basket.
+  - While `basket.size > 2`, shrink the window from the left.
+- Update `maxLen` after each step.
+
+---
+
 ## 🔑 HashMap
 
 ### ✅ 383. Ransom Note
