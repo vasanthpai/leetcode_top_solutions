@@ -153,6 +153,20 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
+### ✅ 3477. Fruits Into Baskets II (Topics - ["Greedy", "Greedy Assignment", "Resource Allocation", "Array Traversal"];)
+- Given two arrays: `fruits` (quantities) and `baskets` (capacities).
+- Goal: Place each fruit type into the **leftmost available basket** that can hold it.
+- Maintain a boolean array `used` to track which baskets are already assigned.
+- For each fruit in order:
+  - Iterate over baskets from left to right.
+  - If a basket is **not used** and its capacity is **≥ fruit quantity**, assign the fruit here:
+    - Mark the basket as used.
+    - Stop searching for this fruit (break).
+  - If no suitable basket is found, increment `unplaced` count.
+- Return the total count of `unplaced` fruits after all attempts.
+
+---
+
 ## 🧭 Two Pointers 
 
 ### ✅ 125. Valid Palindrome
