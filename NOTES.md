@@ -435,6 +435,23 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
+### ✅ 435. Non-overlapping Intervals
+- Given an array of intervals `[start, end]`, return the **minimum number of intervals to remove** so the rest are **non-overlapping**.
+- **Goal:** Keep as many non-overlapping intervals as possible (then subtract from total to get removals).
+- **Strategy:**
+  - **Sort** the intervals by their **end time** in ascending order — this helps us always pick the interval that finishes earliest (greedy).
+  - Initialize:
+    - `count = 0` → tracks how many intervals are removed.
+    - `prevEnd = intervals[0][1]` → stores the end of the last kept interval.
+- **Loop through** the remaining intervals:
+  - For each `[start, end]`:
+    - If `start < prevEnd`, it **overlaps** → increment `count`.
+    - Else, it's non-overlapping → update `prevEnd = end`.
+- After the loop, `count` holds the number of intervals we had to remove.
+- Time complexity: `O(n log n)` due to sorting. Space: `O(1)`.
+
+---
+
 ## 🧺 Stack
 
 ### ✅ 20. Valid Parentheses
