@@ -6,7 +6,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Status     | Count |
 |------------|-------|
-| ✅ Solved   | 40    |
+| ✅ Solved   | 41    |
 <!-- | ⏳ To Do    | 149   | -->
 <!-- | 💡 In Progress | 0 | -->
 
@@ -16,7 +16,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Type                | Count |
 |---------------------|-------|
-| Array / String      | 11    |
+| Array / String      | 12    |
 | Two Pointers        | 6     |
 | Sliding Window      | 5     |
 | Matrix              | 0     |
@@ -47,7 +47,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Difficulty | Count |
 |------------|-------|
-| 🟢 Easy    | 23    |
+| 🟢 Easy    | 24    |
 | 🟡 Medium  | 17    |
 | 🔴 Hard    | 0    |
 
@@ -69,7 +69,8 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | 8 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | Medium | ✅ Done | [Link](./arrays_string/12_Integer_to_Roman/intToRoman.js) |
 | 9 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | Easy | ✅ Done | [Link](./arrays_string/118_Pascal's_Triangle/generate.js) |
 |10 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | Easy | ✅ Done | [Link](./arrays_string/119_Pascal's_Triangle_II/getRow.js) |
-|10 | [Fruits Into Baskets II](https://leetcode.com/problems/fruits-into-baskets-ii/) | Easy | ✅ Done | [Link](./arrays_string/3477_Fruits_Into_Baskets_II/numOfUnplacedFruits.js) |
+|11 | [Fruits Into Baskets II](https://leetcode.com/problems/fruits-into-baskets-ii/) | Easy | ✅ Done | [Link](./arrays_string/3477_Fruits_Into_Baskets_II/numOfUnplacedFruits.js) |
+|12 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | Easy | ✅ Done | [Link](./arrays_string/345_Reverse_Vowels_ofa_String/reverseVowels.js) |
 
 ---
 

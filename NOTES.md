@@ -167,6 +167,19 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
+### ✅ 345. Reverse Vowels of a String
+- Goal: Reverse only the vowels in a given string `s`.
+- Use two pointers (`i` from start, `j` from end).
+- Store vowels in a `Set` for quick lookup.
+- While `i < j`:
+  - Move `i` forward until it finds a vowel.
+  - Move `j` backward until it finds a vowel.
+  - Swap the characters at `i` and `j`.
+  - Move both pointers inward.
+- Return the modified string as a result.
+
+---
+
 ## 🧭 Two Pointers 
 
 ### ✅ 125. Valid Palindrome
