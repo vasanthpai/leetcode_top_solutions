@@ -557,6 +557,21 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
+### ✅ Find Peak Element
+- Use **binary search** to efficiently locate any peak element.
+- A **peak element** is one that is **greater than its neighbors**.
+- Initialize two pointers: `left = 0`, `right = nums.length - 1`.
+- While `left < right`:
+  - Compute `mid = Math.floor((left + right) / 2)`.
+  - If `nums[mid] > nums[mid + 1]`, then:
+    - A peak lies on the **left side (including mid)** → set `right = mid`.
+  - Else:
+    - A peak lies on the **right side** → set `left = mid + 1`.
+- When `left === right`, you've found a peak → return `left` (or `right`).
+- Time complexity: **O(log n)** due to binary search.
+
+---
+
 ## 🔙 Backtracking
 
 ### ✅ 39. Combination Sum

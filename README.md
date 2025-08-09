@@ -6,7 +6,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Status     | Count |
 |------------|-------|
-| ✅ Solved   | 41    |
+| ✅ Solved   | 42    |
 <!-- | ⏳ To Do    | 149   | -->
 <!-- | 💡 In Progress | 0 | -->
 
@@ -33,7 +33,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | Backtracking        | 4     |
 | Divide & Conquer    | 0     |
 | Kadane's Algorithm  | 0     |
-| Binary Search       | 4     |
+| Binary Search       | 5     |
 | Heap                | 0     |
 | Bit Manipulation    | 0     |
 | Math                | 0     |
@@ -48,7 +48,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | Difficulty | Count |
 |------------|-------|
 | 🟢 Easy    | 24    |
-| 🟡 Medium  | 17    |
+| 🟡 Medium  | 18    |
 | 🔴 Hard    | 0    |
 
 ---
@@ -138,6 +138,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | 2 | [Missing Number](https://leetcode.com/problems/missing-number/) | Easy | ✅ Done | [Link](./binarySearch/268_Missing_Number/missing_Number.js) |
 | 3 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers) | Medium | ✅ Done | [Link](./binarySearch/633_Sum_of_Square_Numbers/sumofSquareNumbers.js) |
 | 4 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Medium | ✅ Done | [Link](./binarySearch/153_Find_Minimum_in_Rotated_Sorted_Array/findMinimuminRotatedSortedArray.js) |
+| 5 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | Medium | ✅ Done | [Link](./binarySearch/162_Find_Peak_Element/findPeakElement.js) |
 
 ---
 
