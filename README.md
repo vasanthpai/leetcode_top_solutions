@@ -23,7 +23,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | Hashmap             | 4     |
 | Intervals           | 4     |
 | Stack               | 2     |
-| Linked List         | 0     |
+| Linked List         | 1     |
 | Binary Tree General | 0     |
 | Binary Tree BFS     | 0     |
 | Binary Search Tree  | 0     |
@@ -47,8 +47,8 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Difficulty | Count |
 |------------|-------|
-| 🟢 Easy    | 24    |
-| 🟡 Medium  | 18    |
+| 🟢 Easy    | 25    |
+| 🟡 Medium  | 17    |
 | 🔴 Hard    | 0    |
 
 ---
@@ -127,6 +127,14 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 |---|---------|------------|--------|----------|
 | 1 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | ✅ Done | [Link](./stack/20_Valid_Parentheses/isValid.js) |
 | 2 | [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | Easy | ✅ Done | [Link](./stack/1021_Remove_Outermost_Parentheses/removeOuterParentheses%20.js) |
+
+---
+
+### 🔗 Linked List
+
+| # | Problem | Difficulty | Status | Solution |
+|---|---------|------------|--------|----------|
+| 1 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | ✅ Done | [Link](./linked_list/206_Reverse_Linked_List/reverseList.js) |
 
 ---
 

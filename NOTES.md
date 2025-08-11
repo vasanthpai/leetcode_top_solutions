@@ -513,6 +513,19 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
+## 🔗 Linked List
+
+### ✅ 206. Reverse Linked List
+- Use **three pointers**: `prev`, `current`, and `next`.
+- Initialize `prev = null`, `current = head`.
+- While `current` is not null:
+  - Store `current.next` in `next`.
+  - Reverse the link: `current.next = prev`.
+  - Move `prev` and `current` one step forward.
+- Return `prev` as the new head of the reversed list.
+
+---
+
 ## 🔍 Binary Search
 
 ### ✅ 35. Search Insert Position
