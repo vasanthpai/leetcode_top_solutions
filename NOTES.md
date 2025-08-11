@@ -526,6 +526,25 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
+### ✅ 92. Reverse Linked List II
+- Use **pointers** to find the sublist between `left` and `right`.
+- Track:
+  - `start`: node before the sublist
+  - `tail`: first node of the sublist (becomes tail after reverse)
+  - `current`: node being processed
+- Reverse the sublist by:
+  - Iteratively moving `current.next` to the front of a new list (`newList`)
+- Reconnect:
+  - `start.next = newList`
+  - `tail.next = current` (remaining list)
+- Return `head`, or `newList` if `left === 1` (reversed from head)
+
+```js
+// Time: O(n)
+// Space: O(1)
+```
+---
+
 ## 🔍 Binary Search
 
 ### ✅ 35. Search Insert Position

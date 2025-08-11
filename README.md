@@ -6,7 +6,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Status     | Count |
 |------------|-------|
-| ✅ Solved   | 42    |
+| ✅ Solved   | 43    |
 <!-- | ⏳ To Do    | 149   | -->
 <!-- | 💡 In Progress | 0 | -->
 
@@ -23,7 +23,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | Hashmap             | 4     |
 | Intervals           | 4     |
 | Stack               | 2     |
-| Linked List         | 1     |
+| Linked List         | 2     |
 | Binary Tree General | 0     |
 | Binary Tree BFS     | 0     |
 | Binary Search Tree  | 0     |
@@ -48,7 +48,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | Difficulty | Count |
 |------------|-------|
 | 🟢 Easy    | 25    |
-| 🟡 Medium  | 17    |
+| 🟡 Medium  | 18    |
 | 🔴 Hard    | 0    |
 
 ---
@@ -135,6 +135,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | # | Problem | Difficulty | Status | Solution |
 |---|---------|------------|--------|----------|
 | 1 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | ✅ Done | [Link](./linked_list/206_Reverse_Linked_List/reverseList.js) |
+| 2 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) | Medium | ✅ Done | [Link](./linked_list/92_Reverse_Linked_List_II/reverseBetween.js) |
 
 ---
 
