@@ -180,6 +180,24 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
+### ✅ 430. Flatten a Multilevel Doubly Linked List
+- **Goal**: Flatten a multilevel doubly linked list so that all the nodes appear in a single-level doubly linked list in depth-first order.
+- Use a `while` loop to traverse the list starting from the `head`.
+- At each node:
+  - If `child === null`, simply move to `next`.
+  - If `child !== null`:
+    - Find the **tail** of the child list (`tail.next === null`).
+    - Connect `tail.next` to `currentNode.next` (if it exists).
+    - If `currentNode.next` exists, update its `prev` to point to `tail`.
+    - Set `currentNode.next` to `currentNode.child`.
+    - Set `currentNode.child.prev` to `currentNode`.
+    - Nullify `currentNode.child`.
+    - Move `currentNode` forward to continue flattening.
+- Repeat until all nodes are visited.
+- Return the `head` of the flattened list.
+
+---
+
 ## 🧭 Two Pointers 
 
 ### ✅ 125. Valid Palindrome
