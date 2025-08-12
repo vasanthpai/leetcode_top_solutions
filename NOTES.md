@@ -180,24 +180,6 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
-### ✅ 430. Flatten a Multilevel Doubly Linked List
-- **Goal**: Flatten a multilevel doubly linked list so that all the nodes appear in a single-level doubly linked list in depth-first order.
-- Use a `while` loop to traverse the list starting from the `head`.
-- At each node:
-  - If `child === null`, simply move to `next`.
-  - If `child !== null`:
-    - Find the **tail** of the child list (`tail.next === null`).
-    - Connect `tail.next` to `currentNode.next` (if it exists).
-    - If `currentNode.next` exists, update its `prev` to point to `tail`.
-    - Set `currentNode.next` to `currentNode.child`.
-    - Set `currentNode.child.prev` to `currentNode`.
-    - Nullify `currentNode.child`.
-    - Move `currentNode` forward to continue flattening.
-- Repeat until all nodes are visited.
-- Return the `head` of the flattened list.
-
----
-
 ## 🧭 Two Pointers 
 
 ### ✅ 125. Valid Palindrome
@@ -561,6 +543,38 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 // Time: O(n)
 // Space: O(1)
 ```
+---
+
+### ✅ 430. Flatten a Multilevel Doubly Linked List
+- **Goal**: Flatten a multilevel doubly linked list so that all the nodes appear in a single-level doubly linked list in depth-first order.
+- Use a `while` loop to traverse the list starting from the `head`.
+- At each node:
+  - If `child === null`, simply move to `next`.
+  - If `child !== null`:
+    - Find the **tail** of the child list (`tail.next === null`).
+    - Connect `tail.next` to `currentNode.next` (if it exists).
+    - If `currentNode.next` exists, update its `prev` to point to `tail`.
+    - Set `currentNode.next` to `currentNode.child`.
+    - Set `currentNode.child.prev` to `currentNode`.
+    - Nullify `currentNode.child`.
+    - Move `currentNode` forward to continue flattening.
+- Repeat until all nodes are visited.
+- Return the `head` of the flattened list.
+
+---
+
+### ✅ 142. Linked List Cycle II
+- Use **Floyd’s Tortoise and Hare algorithm** to detect a cycle.
+- Initialize two pointers: `slow` and `fast`, both at `head`.
+- Move `slow` by 1 step and `fast` by 2 steps in a loop:
+  - If `fast` or `fast.next` becomes `null`, there is **no cycle**.
+  - If `slow === fast`, a **cycle is detected**.
+- To find the **starting node** of the cycle:
+  - Initialize two pointers: `p1 = head` and `p2 = meeting point (fast)`.
+  - Move both `p1` and `p2` one step at a time.
+  - The node where they meet is the **start of the cycle**.
+- Return that node.
+
 ---
 
 ## 🔍 Binary Search
