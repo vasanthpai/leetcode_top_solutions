@@ -589,6 +589,33 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
+### ✅ 199(a). Binary Tree Right Side View (BFS)
+- Return the value of the rightmost node at each level of a binary tree.
+- Use BFS traversal with a queue.
+- Steps:
+  1. Return [] if root is null.
+  2. Push root to queue.
+  3. While queue is not empty:
+     - Track the number of nodes at the current level.
+     - Traverse each node and enqueue its children.
+     - The last node in the level is the rightmost one.
+     - Push its value to result array.
+  4. Return the result.
+
+---
+
+### ✅ 199(b). Binary Tree Right Side View (DFS)
+- Capture the rightmost node at each level using DFS.
+- Traverse right children before left.
+- Steps:
+  1. Define a helper `dfs(node, level, results)`.
+  2. If node is null, return.
+  3. If level equals results.length, push node.val.
+  4. Recurse right, then recurse left.
+  5. Return the results array.
+
+---
+
 ## 🌴 Binary Tree BFS
 
 ### ✅ 102. Binary Tree Level Order Traversal

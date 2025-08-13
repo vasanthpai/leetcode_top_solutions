@@ -6,7 +6,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Status     | Count |
 |------------|-------|
-| ✅ Solved   | 47    |
+| ✅ Solved   | 48    |
 <!-- | ⏳ To Do    | 149   | -->
 <!-- | 💡 In Progress | 0 | -->
 
@@ -24,7 +24,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | Intervals           | 4     |
 | Stack               | 2     |
 | Linked List         | 4     |
-| Binary Tree         | 1     |
+| Binary Tree         | 2     |
 | Binary Tree BFS     | 1     |
 | Binary Search Tree  | 0     |
 | Graph General       | 0     |
@@ -48,7 +48,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | Difficulty | Count |
 |------------|-------|
 | 🟢 Easy    | 26    |
-| 🟡 Medium  | 21    |
+| 🟡 Medium  | 22    |
 | 🔴 Hard    | 0    |
 
 ---
@@ -146,6 +146,8 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | # | Problem | Difficulty | Status | Solution |
 |---|---------|------------|--------|----------|
 | 1 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | ✅ Done | [Link](./binary_tree/104_MaximumDepth_of_BinaryTree/maxDepth.js) |
+| 2(a) | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | Medium | ✅ Done | [Link](./binary_tree/199_Binary_TreeRightSide_View/rightSideView_bfs.js) |
+| 2(b) | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | Medium | ✅ Done | [Link](./binary_tree/199_Binary_TreeRightSide_View//rightSideView_dfs.js) |
 
 ---
 
