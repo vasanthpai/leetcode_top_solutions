@@ -589,6 +589,21 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
+## 🌴 Binary Tree BFS
+
+### ✅ 102. Binary Tree Level Order Traversal
+- Traverse the binary tree level by level using BFS.
+- Use a queue to process nodes level by level.
+- Steps:
+  1. Return [] if root is null.
+  2. Push root into queue.
+  3. While queue has nodes:
+     - For each node at current level:
+       - Dequeue it and store its value.
+       - Enqueue its left and right children if they exist.
+     - Push level values to result array.
+  4. Return result.
+
 ## 🔍 Binary Search
 
 ### ✅ 35. Search Insert Position

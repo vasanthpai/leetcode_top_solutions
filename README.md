@@ -6,7 +6,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Status     | Count |
 |------------|-------|
-| ✅ Solved   | 46    |
+| ✅ Solved   | 47    |
 <!-- | ⏳ To Do    | 149   | -->
 <!-- | 💡 In Progress | 0 | -->
 
@@ -25,7 +25,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | Stack               | 2     |
 | Linked List         | 4     |
 | Binary Tree         | 1     |
-| Binary Tree BFS     | 0     |
+| Binary Tree BFS     | 1     |
 | Binary Search Tree  | 0     |
 | Graph General       | 0     |
 | Graph BFS           | 0     |
@@ -48,7 +48,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | Difficulty | Count |
 |------------|-------|
 | 🟢 Easy    | 26    |
-| 🟡 Medium  | 20    |
+| 🟡 Medium  | 21    |
 | 🔴 Hard    | 0    |
 
 ---
@@ -146,6 +146,14 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | # | Problem | Difficulty | Status | Solution |
 |---|---------|------------|--------|----------|
 | 1 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | ✅ Done | [Link](./binary_tree/104_MaximumDepth_of_BinaryTree/maxDepth.js) |
+
+---
+
+### 🌴 Binary Tree BFS
+
+| # | Problem | Difficulty | Status | Solution |
+|---|---------|------------|--------|----------|
+| 1 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | ✅ Done | [Link](./binart_tree_bfs/102_Binary_Tree_LevelOrder_Traversal/levelOrder.js) |
 
 ---
 
