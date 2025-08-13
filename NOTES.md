@@ -577,6 +577,18 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
+## 🌳 Binary Tree
+
+### ✅ 104. Maximum Depth of Binary Tree
+- Find the maximum depth of a binary tree using recursion.
+- Steps:
+  1. If the node is `null`, return 0.
+  2. Recursively find the max depth of the left subtree.
+  3. Recursively find the max depth of the right subtree.
+  4. Return the maximum of the two depths plus 1.
+
+---
+
 ## 🔍 Binary Search
 
 ### ✅ 35. Search Insert Position

@@ -6,7 +6,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Status     | Count |
 |------------|-------|
-| ✅ Solved   | 45    |
+| ✅ Solved   | 46    |
 <!-- | ⏳ To Do    | 149   | -->
 <!-- | 💡 In Progress | 0 | -->
 
@@ -24,7 +24,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | Intervals           | 4     |
 | Stack               | 2     |
 | Linked List         | 4     |
-| Binary Tree General | 0     |
+| Binary Tree         | 1     |
 | Binary Tree BFS     | 0     |
 | Binary Search Tree  | 0     |
 | Graph General       | 0     |
@@ -47,7 +47,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Difficulty | Count |
 |------------|-------|
-| 🟢 Easy    | 25    |
+| 🟢 Easy    | 26    |
 | 🟡 Medium  | 20    |
 | 🔴 Hard    | 0    |
 
@@ -138,6 +138,14 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | 2 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) | Medium | ✅ Done | [Link](./linked_list/92_Reverse_Linked_List_II/reverseBetween.js) |
 | 3 | [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | Medium | ✅ Done | [Link](/linked_list/430_Flatten_a_MultilevelDoublyLinked_List/flatten.js) |
 | 4 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | Medium | ✅ Done | [Link](/linked_list/142_Linked_List_Cycle_II/detectCycle.js) |
+
+---
+
+### 🌳 Binary Tree
+
+| # | Problem | Difficulty | Status | Solution |
+|---|---------|------------|--------|----------|
+| 1 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | ✅ Done | [Link](./binary_tree/104_MaximumDepth_of_BinaryTree/maxDepth.js) |
 
 ---
 
