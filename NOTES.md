@@ -616,6 +616,29 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
+### ✅ 222. Count Complete Tree Nodes
+- Count the number of nodes in a **complete binary tree** efficiently using binary search.
+- Time Complexity: `O(log² N)`
+- Steps:
+  1. If the root is `null`, return `0`.
+  2. Compute the **height** of the tree by walking down the **leftmost path**.
+     - If the height is `0`, return `1` (only the root exists).
+  3. Compute the number of nodes in the full levels above the last using:
+     - `upper = (2^height) - 1`
+  4. Use **binary search** on the range `[0, upper]` to count nodes in the last level:
+     - While `left <= right`:
+       - Set `mid = floor((left + right) / 2)`
+       - Use `nodeExist(mid, height, root)` to check if the node exists at that position:
+         - Simulate binary path traversal from the root to the last level.
+         - Decide direction (`left` or `right`) based on the index at each level.
+         - Return `true` if the node exists at the position.
+       - If it exists, search the **right half**: `left = mid + 1`
+       - Else, search the **left half**: `right = mid - 1`
+  5. Return `upper + left` as the total node count.
+     - `left` will be the count of existing nodes on the last level.
+
+---
+
 ## 🌴 Binary Tree BFS
 
 ### ✅ 102. Binary Tree Level Order Traversal
