@@ -639,6 +639,19 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
+### ✅ 98. Validate Binary Search Tree
+- Use DFS with `min` and `max` bounds to validate the BST property.
+- For each node, ensure: `min < node.val < max`.
+- Steps:
+  1. Define a helper `dfs(node, min, max)`.
+  2. If node is null, return true.
+  3. If `node.val <= min` or `node.val >= max`, return false.
+  4. Recursively validate left subtree with updated max (`node.val`).
+  5. Recursively validate right subtree with updated min (`node.val`).
+  6. Return true if both subtrees are valid.
+
+---
+
 ## 🌴 Binary Tree BFS
 
 ### ✅ 102. Binary Tree Level Order Traversal

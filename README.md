@@ -6,7 +6,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Status     | Count |
 |------------|-------|
-| ✅ Solved   | 49    |
+| ✅ Solved   | 50    |
 <!-- | ⏳ To Do    | 149   | -->
 <!-- | 💡 In Progress | 0 | -->
 
@@ -24,7 +24,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | Intervals           | 4     |
 | Stack               | 2     |
 | Linked List         | 4     |
-| Binary Tree         | 3     |
+| Binary Tree         | 4     |
 | Binary Tree BFS     | 1     |
 | Binary Search Tree  | 0     |
 | Graph General       | 0     |
@@ -48,7 +48,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | Difficulty | Count |
 |------------|-------|
 | 🟢 Easy    | 27    |
-| 🟡 Medium  | 22    |
+| 🟡 Medium  | 23    |
 | 🔴 Hard    | 0    |
 
 ---
@@ -149,6 +149,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | 2(a) | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) (BFS) | Medium | ✅ Done | [Link](./binary_tree/199_Binary_TreeRightSide_View/rightSideView_bfs.js) |
 | 2(b) | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) (DFS) | Medium | ✅ Done | [Link](./binary_tree/199_Binary_TreeRightSide_View//rightSideView_dfs.js) |
 | 3 | [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/) | Easy | ✅ Done | [Link](./binary_tree/222_Count_Complete_Tree_Nodes/countNodes.js) |
+| 4 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | Medium | ✅ Done | [Link](./binary_tree/98_Validate_Binary_Search_Tree/isValidBST.js) |
 
 
 ---
