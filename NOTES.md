@@ -4,7 +4,7 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
-## 📦 Array & Hashing
+## 📦 Array & String
 
 
 ### ✅ 88. Merge Sorted Array
@@ -177,6 +177,19 @@ This file is a **quick-reference summary** of problem-solving logic for problems
   - Swap the characters at `i` and `j`.
   - Move both pointers inward.
 - Return the modified string as a result.
+
+---
+
+### ✅ 2348. Number of Zero-Filled Subarrays
+- Use a **single pass** to count subarrays made up of only zeros.
+- Maintain:
+  - `consecutiveZeros` to track length of current zero streak.
+  - `count` to accumulate total zero-filled subarrays.
+- For each number in `nums`:
+  - If it's `0`, increment `consecutiveZeros` and add it to `count`.
+    - This accounts for all new subarrays ending at that zero.
+  - If it's not `0`, reset `consecutiveZeros` to `0`.
+- Return `count` as the total number of zero-filled subarrays.
 
 ---
 
