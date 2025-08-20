@@ -193,6 +193,17 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
+### ✅ 1768. Merge Strings Alternately
+- Use a **single loop** to iterate over both strings simultaneously.
+- Initialize an empty string `merged` and an index `i = 0`.
+- Loop while `i` is less than the length of either string.
+  - If `i < word1.length`, append `word1[i]` to `merged`.
+  - If `i < word2.length`, append `word2[i]` to `merged`.
+  - Increment `i` after each iteration.
+- Return the `merged` string as the result.
+
+---
+
 ## 🧭 Two Pointers 
 
 ### ✅ 125. Valid Palindrome
