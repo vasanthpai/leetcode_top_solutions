@@ -368,6 +368,20 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
+### ✅ 1004. Max Consecutive Ones III
+- Find the maximum number of consecutive 1s in the array if you can flip at most `k` 0s.
+- Use a **sliding window** with two pointers: `left` and `right`.
+- Iterate through the array with `right`, expanding the window.
+- If the current number is `0`, increment the `zeros` counter (count of 0s in the window).
+- While the number of zeros exceeds `k`:
+  - Shrink the window from the left until it becomes valid (i.e., `zeros <= k`).
+  - If `nums[left]` is `0`, decrement `zeros` as it’s leaving the window.
+  - Move `left` pointer forward.
+- After each iteration, calculate the current valid window size (`right - left + 1`) and update the maximum length found.
+- Return the maximum valid window size found by the end of the array.
+
+---
+
 ## 🔑 HashMap
 
 ### ✅ 383. Ransom Note
