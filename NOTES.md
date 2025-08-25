@@ -204,6 +204,19 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
+### ✅ 238. Product of Array Except Self
+- Use **two passes** to compute products without using division.
+- Initialize result array `res` with 1s.
+- **First pass (left to right)**:
+  - Maintain `leftProduct` and update `res[i] *= leftProduct`.
+  - Multiply `leftProduct *= nums[i]` after each step.
+- **Second pass (right to left)**:
+  - Maintain `rightProduct` and update `res[i] *= rightProduct`.
+  - Multiply `rightProduct *= nums[i]` after each step.
+- Final `res[i]` contains product of all elements **except** `nums[i]`.
+
+---
+
 ## 🧭 Two Pointers 
 
 ### ✅ 125. Valid Palindrome

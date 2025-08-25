@@ -6,7 +6,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Status     | Count |
 |------------|-------|
-| ✅ Solved   | 53    |
+| ✅ Solved   | 54    |
 <!-- | ⏳ To Do    | 149   | -->
 <!-- | 💡 In Progress | 0 | -->
 
@@ -16,7 +16,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Type                | Count |
 |---------------------|-------|
-| Array / String      | 14    |
+| Array / String      | 15    |
 | Two Pointers        | 6     |
 | Sliding Window      | 6     |
 | Matrix              | 0     |
@@ -48,7 +48,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | Difficulty | Count |
 |------------|-------|
 | 🟢 Easy    | 28    |
-| 🟡 Medium  | 25    |
+| 🟡 Medium  | 26    |
 | 🔴 Hard    | 0    |
 
 ---
@@ -73,6 +73,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 |12 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | Easy | ✅ Done | [Link](./arrays_string/345_Reverse_Vowels_ofa_String/reverseVowels.js) |
 |13 | [Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/) | Medium | ✅ Done | [Link](./arrays_string/2348_Number_of_Zero-Filled_Subarrays/zeroFilledSubarray.js) |
 |14 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | Easy | ✅ Done | [Link](./arrays_string/1768_Merge_Strings_Alternately/mergeAlternately.js) |
+|15 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | ✅ Done | [Link](./arrays_string/238_Product_of_Array_Except_Self/productExceptSelf.js) |
 
 ---
 
