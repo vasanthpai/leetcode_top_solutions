@@ -6,7 +6,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Status     | Count |
 |------------|-------|
-| ✅ Solved   | 54    |
+| ✅ Solved   | 55    |
 <!-- | ⏳ To Do    | 149   | -->
 <!-- | 💡 In Progress | 0 | -->
 
@@ -16,7 +16,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Type                | Count |
 |---------------------|-------|
-| Array / String      | 15    |
+| Array / String      | 16    |
 | Two Pointers        | 6     |
 | Sliding Window      | 6     |
 | Matrix              | 0     |
@@ -47,7 +47,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Difficulty | Count |
 |------------|-------|
-| 🟢 Easy    | 28    |
+| 🟢 Easy    | 29    |
 | 🟡 Medium  | 26    |
 | 🔴 Hard    | 0    |
 
@@ -74,6 +74,8 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 |13 | [Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/) | Medium | ✅ Done | [Link](./arrays_string/2348_Number_of_Zero-Filled_Subarrays/zeroFilledSubarray.js) |
 |14 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | Easy | ✅ Done | [Link](./arrays_string/1768_Merge_Strings_Alternately/mergeAlternately.js) |
 |15 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | ✅ Done | [Link](./arrays_string/238_Product_of_Array_Except_Self/productExceptSelf.js) |
+|16 | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | Easy | ✅ Done | [Link](./arrays_string/1071_GreatestCommonDivisor_of_Strings/gcdOfStrings.js) |
+
 
 ---
 

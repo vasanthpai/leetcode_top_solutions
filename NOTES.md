@@ -217,6 +217,14 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
+### ✅ 1071. Greatest Common Divisor of Strings
+- Check if `str1 + str2 === str2 + str1` to ensure both strings share a common base pattern.
+- If not equal, return an empty string (`""`) – no common divisor.
+- Use **Euclidean algorithm** to find the GCD of `str1.length` and `str2.length`.
+- Return `str1.substring(0, GCD)` as the greatest common divisor string.
+
+---
+
 ## 🧭 Two Pointers 
 
 ### ✅ 125. Valid Palindrome
