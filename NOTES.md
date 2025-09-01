@@ -225,6 +225,15 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
+### ✅ 1431. Kids With the Greatest Number of Candies
+- Find the **maximum candies** any kid currently has using `Math.max`.
+- Iterate through each kid's candies:
+  - Check if `candies[i] + extraCandies >= max`.
+  - If true, that kid **can have the greatest number** of candies.
+- Return a boolean array representing whether each kid can reach or exceed the max.
+
+---
+
 ## 🧭 Two Pointers 
 
 ### ✅ 125. Valid Palindrome

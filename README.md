@@ -75,6 +75,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 |14 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | Easy | ✅ Done | [Link](./arrays_string/1768_Merge_Strings_Alternately/mergeAlternately.js) |
 |15 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | ✅ Done | [Link](./arrays_string/238_Product_of_Array_Except_Self/productExceptSelf.js) |
 |16 | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | Easy | ✅ Done | [Link](./arrays_string/1071_GreatestCommonDivisor_of_Strings/gcdOfStrings.js) |
+|17 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | Easy | ✅ Done | [Link](./arrays_string/1431_KidsWith_the_GreatestNumber_of_Candies/kidsWithCandies.js) |
 
 
 ---
