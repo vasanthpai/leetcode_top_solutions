@@ -1,6 +1,6 @@
 # 🚀 LeetCode – Progress Tracker
 
-Welcome to my LeetCode journey! I'm solving the most frequently asked coding interview questions and tracking my progress here. Each problem is categorized by topic and includes the difficulty level.
+Welcome to my LeetCode journey! I'm solving the most frequently asked coding interview questions and tracking my progress here. Each problem is categorized by topic and includes the solutions and difficulty level.
 
 ## 📈 Progress Overview
 
@@ -47,7 +47,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Difficulty | Count |
 |------------|-------|
-| 🟢 Easy    | 29    |
+| 🟢 Easy    | 28    |
 | 🟡 Medium  | 26    |
 | 🔴 Hard    | 0    |
 
@@ -74,9 +74,6 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 |13 | [Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/) | Medium | ✅ Done | [Link](./arrays_string/2348_Number_of_Zero-Filled_Subarrays/zeroFilledSubarray.js) |
 |14 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | Easy | ✅ Done | [Link](./arrays_string/1768_Merge_Strings_Alternately/mergeAlternately.js) |
 |15 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | ✅ Done | [Link](./arrays_string/238_Product_of_Array_Except_Self/productExceptSelf.js) |
-|16 | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | Easy | ✅ Done | [Link](./arrays_string/1071_GreatestCommonDivisor_of_Strings/gcdOfStrings.js) |
-|17 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | Easy | ✅ Done | [Link](./arrays_string/1431_KidsWith_the_GreatestNumber_of_Candies/kidsWithCandies.js) |
-
 
 ---
 
