@@ -6,7 +6,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Status     | Count |
 |------------|-------|
-| ✅ Solved   | 55    |
+| ✅ Solved   | 56    |
 <!-- | ⏳ To Do    | 149   | -->
 <!-- | 💡 In Progress | 0 | -->
 
@@ -18,7 +18,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 |---------------------|-------|
 | Array / String      | 16    |
 | Two Pointers        | 6     |
-| Sliding Window      | 6     |
+| Sliding Window      | 7     |
 | Matrix              | 0     |
 | Hashmap             | 4     |
 | Intervals           | 4     |
@@ -48,7 +48,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | Difficulty | Count |
 |------------|-------|
 | 🟢 Easy    | 28    |
-| 🟡 Medium  | 26    |
+| 🟡 Medium  | 27    |
 | 🔴 Hard    | 0    |
 
 ---
@@ -100,6 +100,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | 4 | [Maximum Average Subarray I](https://leetcode.com/problems/contains-duplicate-ii/) | Easy | ✅ Done | [Link](./slidingWindow/643_Maximum_AverageSubarray_I/findMaxAverage.js) |
 | 5 | [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/) | Medium | ✅ Done | [Link](./slidingWindow/904_Fruit_Into_Baskets/totalFruit.js) |
 | 6 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) | Medium | ✅ Done | [Link](./slidingWindow/1004_Max_Consecutive_Ones_III/longestOnes.js) |
+| 7 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | Medium | ✅ Done | [Link](./slidingWindow/424_Longest_RepeatingCharacterReplacement/characterReplacement.js) |
 
 ---
 
