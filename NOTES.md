@@ -412,27 +412,6 @@ This file is a **quick-reference summary** of problem-solving logic for problems
 
 ---
 
-### ✅ 209. Minimum Size Subarray Sum
-
-- Goal: Find the minimal length of a contiguous subarray with sum ≥ `target`.
-- Use **sliding window** with two pointers: `left` and `right`.
-- Initialize:
-  - `left = 0` → left edge of window
-  - `sum = 0` → running sum of current window
-  - `minLen = Infinity` → stores minimum window length
-- Loop `right` from `0` to `nums.length - 1`:
-  1. Add `nums[right]` to `sum` (expand the window to the right).
-  2. While `sum >= target`:
-     - Update `minLen` with current window size: `right - left + 1`.
-     - Shrink window from left:
-       - Subtract `nums[left]` from `sum`.
-       - Increment `left`.
-- After the loop:
-  - If `minLen` is still `Infinity`, return `0` (no valid subarray found).
-  - Otherwise, return `minLen`.
-
----
-
 ## 🔑 HashMap
 
 ### ✅ 383. Ransom Note

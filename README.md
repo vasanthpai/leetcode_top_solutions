@@ -6,7 +6,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Status     | Count |
 |------------|-------|
-| ✅ Solved   | 56    |
+| ✅ Solved   | 57    |
 <!-- | ⏳ To Do    | 149   | -->
 <!-- | 💡 In Progress | 0 | -->
 
@@ -16,7 +16,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Type                | Count |
 |---------------------|-------|
-| Array / String      | 16    |
+| Array / String      | 17    |
 | Two Pointers        | 6     |
 | Sliding Window      | 7     |
 | Matrix              | 0     |
@@ -47,7 +47,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | Difficulty | Count |
 |------------|-------|
-| 🟢 Easy    | 28    |
+| 🟢 Easy    | 29    |
 | 🟡 Medium  | 27    |
 | 🔴 Hard    | 0    |
 
@@ -61,7 +61,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 |---|---------|------------|--------|----------|
 | 1 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | Easy | ✅ Done | [Link](./arrays_string/88_Merge_Sorted_Array/mergeSortedArray.js) |
 | 2 | [Remove Element](https://leetcode.com/problems/remove-element/) | Easy | ✅ Done | [Link](./arrays_string/27_Remove_Element/removeElement.js) |
-| 3 | [Remove Element](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy | ✅ Done | [Link](./arrays_string/26_Remove_Duplicates_from_Sorted_Array/removeDuplicates.js) |
+| 3 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy | ✅ Done | [Link](./arrays_string/26_Remove_Duplicates_from_Sorted_Array/removeDuplicates.js) |
 | 4 | [Majority Element](https://leetcode.com/problems/majority-element/) | Easy | ✅ Done | [Link](./arrays_string/169_Majority_Element/majorityElement.js) |
 | 5 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | ✅ Done | [Link](./arrays_string/121_Best_Time_to_BuyandSell_Stock/maxProfit.js) |
 | 6 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | Medium | ✅ Done | [Link](./arrays_string/189_Rotate_Array/rotate.js) |
@@ -74,6 +74,8 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 |13 | [Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/) | Medium | ✅ Done | [Link](./arrays_string/2348_Number_of_Zero-Filled_Subarrays/zeroFilledSubarray.js) |
 |14 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | Easy | ✅ Done | [Link](./arrays_string/1768_Merge_Strings_Alternately/mergeAlternately.js) |
 |15 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | ✅ Done | [Link](./arrays_string/238_Product_of_Array_Except_Self/productExceptSelf.js) |
+|16 | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | Easy | ✅ Done | [Link](./arrays_string/1071_GreatestCommonDivisor_of_Strings/gcdOfStrings.js) |
+|17 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | Easy | ✅ Done | [Link](./arrays_string/1431_KidsWith_the_GreatestNumber_of_Candies/kidsWithCandies.js) |
 
 ---
 
@@ -86,7 +88,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 | 3 | [Reverse String](https://leetcode.com/problems/reverse-string/) | Easy | ✅ Done | [Link](./two_pointers/344_Reverse_String/reverseString.js) |
 | 4 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | Medium | ✅ Done | [Link](./two_pointers/75_Sort_Colors/sortColors.js) |
 | 5 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Medium | ✅ Done | [Link](./two_pointers/Two_Sum_II-Input_ArrayIs_Sorted/twoSum.js) |
-| 5 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Easy | ✅ Done | [Link](./two_pointers/283_Move_Zeroes/moveZeroes.js) |
+| 6 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Easy | ✅ Done | [Link](./two_pointers/283_Move_Zeroes/moveZeroes.js) |
 
 ---
 
@@ -94,13 +96,13 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | # | Problem | Difficulty | Status | Solution |
 |---|---------|------------|--------|----------|
-| 1 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | Medium | ✅ Done | [Link](./slidingWindow/209_Minimum_Size_Subarray_Sum/minSubArrayLen.js) |
-| 2 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | ✅ Done | [Link](./slidingWindow/3_LongestSubstring_Without_RepeatingCharacters/lengthOfLongestSubstring.js) |
-| 3 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | Easy | ✅ Done | [Link](./slidingWindow/219_Contains_Duplicate_II/containsNearbyDuplicate.js) |
-| 4 | [Maximum Average Subarray I](https://leetcode.com/problems/contains-duplicate-ii/) | Easy | ✅ Done | [Link](./slidingWindow/643_Maximum_AverageSubarray_I/findMaxAverage.js) |
-| 5 | [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/) | Medium | ✅ Done | [Link](./slidingWindow/904_Fruit_Into_Baskets/totalFruit.js) |
-| 6 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) | Medium | ✅ Done | [Link](./slidingWindow/1004_Max_Consecutive_Ones_III/longestOnes.js) |
-| 7 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | Medium | ✅ Done | [Link](./slidingWindow/424_Longest_RepeatingCharacterReplacement/characterReplacement.js) |
+| 1 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | Medium | ✅ Done | [Link](./sliding_window/209_Minimum_Size_Subarray_Sum/minSubArrayLen.js) |
+| 2 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | ✅ Done | [Link](./sliding_window/3_LongestSubstring_Without_RepeatingCharacters/lengthOfLongestSubstring.js) |
+| 3 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | Easy | ✅ Done | [Link](./sliding_window/219_Contains_Duplicate_II/containsNearbyDuplicate.js) |
+| 4 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | Easy | ✅ Done | [Link](./sliding_window/643_Maximum_AverageSubarray_I/findMaxAverage.js) |
+| 5 | [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/) | Medium | ✅ Done | [Link](./sliding_window/904_Fruit_Into_Baskets/totalFruit.js) |
+| 6 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) | Medium | ✅ Done | [Link](./sliding_window/1004_Max_Consecutive_Ones_III/longestOnes.js) |
+| 7 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | Medium | ✅ Done | [Link](./sliding_window/424_Longest_RepeatingCharacterReplacement/characterReplacement.js) |
 
 ---
 
@@ -108,10 +110,10 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | # | Problem | Difficulty | Status | Solution |
 |---|---------|------------|--------|----------|
-| 1 | [Ransom Note](https://leetcode.com/problems/ransom-note/) | Easy | ✅ Done | [Link](./Hashmap/383_Ransom_Note/canConstruct.js) |
-| 2 | [Word Pattern](https://leetcode.com/problems/word-pattern/description/) | Easy | ✅ Done | [Link](./Hashmap/290_Word_Pattern/wordPattern.js) |
-| 3 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | ✅ Done | [Link](./Hashmap/1_Two_Sum/twoSum.js) |
-| 4 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | ✅ Done | [Link](./Hashmap/242_Valid_Anagram/isAnagram.js) |
+| 1 | [Ransom Note](https://leetcode.com/problems/ransom-note/) | Easy | ✅ Done | [Link](./hashmap/383_Ransom_Note/canConstruct.js) |
+| 2 | [Word Pattern](https://leetcode.com/problems/word-pattern/description/) | Easy | ✅ Done | [Link](./hashmap/290_Word_Pattern/wordPattern.js) |
+| 3 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | ✅ Done | [Link](./hashmap/1_Two_Sum/twoSum.js) |
+| 4 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | ✅ Done | [Link](./hashmap/242_Valid_Anagram/isAnagram.js) |
 
 ---
 
@@ -141,8 +143,8 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 |---|---------|------------|--------|----------|
 | 1 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | ✅ Done | [Link](./linked_list/206_Reverse_Linked_List/reverseList.js) |
 | 2 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) | Medium | ✅ Done | [Link](./linked_list/92_Reverse_Linked_List_II/reverseBetween.js) |
-| 3 | [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | Medium | ✅ Done | [Link](/linked_list/430_Flatten_a_MultilevelDoublyLinked_List/flatten.js) |
-| 4 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | Medium | ✅ Done | [Link](/linked_list/142_Linked_List_Cycle_II/detectCycle.js) |
+| 3 | [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | Medium | ✅ Done | [Link](./linked_list/430_Flatten_a_MultilevelDoublyLinked_List/flatten.js) |
+| 4 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | Medium | ✅ Done | [Link](./linked_list/142_Linked_List_Cycle_II/detectCycle.js) |
 
 ---
 
@@ -152,7 +154,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 |---|---------|------------|--------|----------|
 | 1 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | ✅ Done | [Link](./binary_tree/104_MaximumDepth_of_BinaryTree/maxDepth.js) |
 | 2(a) | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) (BFS) | Medium | ✅ Done | [Link](./binary_tree/199_Binary_TreeRightSide_View/rightSideView_bfs.js) |
-| 2(b) | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) (DFS) | Medium | ✅ Done | [Link](./binary_tree/199_Binary_TreeRightSide_View//rightSideView_dfs.js) |
+| 2(b) | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) (DFS) | Medium | ✅ Done | [Link](./binary_tree/199_Binary_TreeRightSide_View/rightSideView_dfs.js) |
 | 3 | [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/) | Easy | ✅ Done | [Link](./binary_tree/222_Count_Complete_Tree_Nodes/countNodes.js) |
 | 4 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | Medium | ✅ Done | [Link](./binary_tree/98_Validate_Binary_Search_Tree/isValidBST.js) |
 
@@ -163,7 +165,7 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | # | Problem | Difficulty | Status | Solution |
 |---|---------|------------|--------|----------|
-| 1 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | ✅ Done | [Link](./binart_tree_bfs/102_Binary_Tree_LevelOrder_Traversal/levelOrder.js) |
+| 1 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | ✅ Done | [Link](./binary_tree_bfs/102_Binary_Tree_LevelOrder_Traversal/levelOrder.js) |
 
 ---
 
@@ -171,11 +173,11 @@ Welcome to my LeetCode journey! I'm solving the most frequently asked coding int
 
 | # | Problem | Difficulty | Status | Solution |
 |---|---------|------------|--------|----------|
-| 1 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Easy | ✅ Done | [Link](./binarySearch/35_Search_Insert_Position/searchInsertPosition.js) |
-| 2 | [Missing Number](https://leetcode.com/problems/missing-number/) | Easy | ✅ Done | [Link](./binarySearch/268_Missing_Number/missing_Number.js) |
-| 3 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers) | Medium | ✅ Done | [Link](./binarySearch/633_Sum_of_Square_Numbers/sumofSquareNumbers.js) |
-| 4 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Medium | ✅ Done | [Link](./binarySearch/153_Find_Minimum_in_Rotated_Sorted_Array/findMinimuminRotatedSortedArray.js) |
-| 5 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | Medium | ✅ Done | [Link](./binarySearch/162_Find_Peak_Element/findPeakElement.js) |
+| 1 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Easy | ✅ Done | [Link](./binary_search/35_Search_Insert_Position/searchInsertPosition.js) |
+| 2 | [Missing Number](https://leetcode.com/problems/missing-number/) | Easy | ✅ Done | [Link](./binary_search/268_Missing_Number/missing_Number.js) |
+| 3 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers) | Medium | ✅ Done | [Link](./binary_search/633_Sum_of_Square_Numbers/sumofSquareNumbers.js) |
+| 4 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Medium | ✅ Done | [Link](./binary_search/153_Find_Minimum_in_Rotated_Sorted_Array/findMinimuminRotatedSortedArray.js) |
+| 5 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | Medium | ✅ Done | [Link](./binary_search/162_Find_Peak_Element/findPeakElement.js) |
 
 ---
 
